@@ -1,0 +1,128 @@
+@CHARSET "UTF-8";
+.dilbag-lca{
+    float:right;
+    width:40%;
+    margin:5px;
+}
+.dilbag-like{
+    border-radius:5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border:1px solid #058aa7 ;
+    background: #fff;
+    color:#058aa7 ;
+    padding:5px;
+    margin:2px;
+    float:left;
+    font-weight:bold;
+    cursor:pointer;
+}
+.dilbag-comment{
+    border-radius:5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border:1px solid #058aa7 ;
+    background: #fff;
+    color:#058aa7 ;
+    padding:5px;
+    margin:2px;
+    float:left;
+    font-weight:bold;
+    cursor:pointer;
+}
+.dilbag-action{
+    border-radius:5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border:1px solid #058aa7 ;
+    background: #fff;
+    color:#058aa7 ;
+    padding:3px;
+    margin:2px;
+    float:left;
+    font-weight:bold;
+    cursor:pointer;
+}
+.dilbag-action-list{
+    border-radius:5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border:1px solid #058aa7 ;
+    background: #fff;
+    color:#058aa7 ;
+    padding:5px;
+    margin-left:2px;
+    float:left;
+    font-weight:bold;
+    width:40px;
+    cursor:pointer;
+}
+.contact_detail_error{
+    border-radius:5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border:1px solid #058aa7 ;
+    background: #de7b13;
+    color:#fff ;
+    display:none;
+    padding: 15px;
+    margin: auto;
+    margin-left:35%;
+    position:fixed;
+    z-index:9999999;
+}
+.update_user_detail2{
+    height: auto;
+    width: 230px;
+    margin: auto;
+    margin-left:40%;   
+    position: fixed;
+    padding: 15px;  
+    display:none;
+    border-radius:5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border:1px solid #058aa7 ;
+    background: #de7b13;
+    color:#fff ;
+    font-size: large;
+    z-index:9999999;
+}
+.rfq_post_confirmation{
+    height:200px;
+    width: 500px;
+    margin: auto;
+    margin-left:18%;   
+    position: fixed;
+    padding: 15px;  
+    display:none;
+    border-radius:5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border:1px solid #058aa7 ;
+    background: #f1f1f1;
+    color:#158da8 ;
+    font-size: large;
+    z-index:9999999;
+}
+
+.folder_ul
+{
+    width: 205px;
+    padding: 5px;
+}
+.folder_ul li
+{
+    width: 201px;
+    padding: 2px;
+    background: #039bc2;
+    color: #FFFFFF;
+    margin-top: 2px;
+    border-radius:2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    cursor:pointer;
+    font-family: Verdana;
+    font-size: 14px;    
+}
+

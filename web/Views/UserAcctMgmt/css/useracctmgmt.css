@@ -1,0 +1,190 @@
+
+.container
+{
+	
+	width:964px;
+	margin:auto;
+	height:auto;
+	
+}
+
+
+.striphead
+{
+	width:964px;
+	height:34px;
+	background:url("../images/gradient-strip.png") repeat-x;
+	border-bottom: 1px solid #d2d2d2;
+	float:left;
+	position:relative;
+}
+
+.stripheadtext
+{
+	font-family:Verdana;
+	font-size: 11px;
+	line-height: 34px;
+	color: #464646;
+	margin-left:5px;
+	font-weight:bold;
+}
+
+.stripcontenttext
+{
+	width:87px;
+	height:24px;
+	font-family: "verdana";
+	font-size: 11px;
+	line-height: 19px;
+	color: #464646;
+}
+
+
+.stripcontentleft
+{
+	width:430px;
+	height:auto;
+	padding:24px;
+	padding-bottom:0px;
+	float:left;
+	margin-top:44px;
+}
+
+.stripcontentright
+{
+	margin-top:2px;
+	width: 300px;
+	height:auto;
+	/*padding:24px;*/
+	padding-bottom:0px;
+	float:left;
+}
+
+.stripcontent
+{
+	/*margin-left:80px;*/
+	width:480px;
+	text-align:right;
+	height:auto;
+	padding:24px;
+	padding-bottom:0px;
+	float:left;
+}
+
+.innercontent
+{
+	margin-top:24px;
+	margin-left:200px;
+	width:400px;
+	float:left;
+}
+
+.hori_seperator
+{
+	width:595px;
+	height:1px;
+	background:url("../images/seperator.jpg") repeat-x;
+	margin-bottom:24px;
+	margin-left:160px;
+	float:left;
+}
+
+.arrow
+{
+	width:14px;
+	height:24px;
+	float: right;
+	background:url("../images/rightarrow.png");
+	margin-top:6px;
+	margin-right:5px;
+}
+
+.right_arrow
+{
+	width: 14px;
+	height: 24px;
+	background: url("../images/rightarrow.png");
+	float: right;
+	
+	position: absolute;
+	top: 6px;
+	left: 940px;
+}
+
+.down_arrow
+{
+	width:24px;
+	height:14px;
+	background:url("../images/downarrow.png");
+ 	float: right;
+ 
+ 	position: absolute;
+ 	top: 12px;
+ 	left: 933px;
+}
+
+.customtext
+{
+	width: 165px; 
+	height: 16px; 
+	float: left;
+	margin-left:20px;
+	/* padding:0px; */
+}
+
+.profilepic
+{
+	max-width: 140px;
+	max-height: 150px;
+	/*background:url("../images/profilepic.jpg");*/
+	background-color: #d2d2d2;
+	margin-bottom:10px;
+}
+
+.actionstrip
+{
+	width:500px;
+	height:37px;
+	float:left;
+	margin-left:160px;
+	/* margin-bottom:24px; */
+}
+
+.savebtn
+{
+	width:93px;
+	height:24px;
+}
+
+.profilecontainer
+{
+	width:964px;
+	height:auto;
+	float:left;
+	background-color:#F9FBFB;
+	border-bottom:1px solid #d2d2d2;
+	
+}
+
+.notify_content_one
+{
+	width:964px;
+	height:autopx;
+	background-color:#F9FBFB;
+	float:left;
+	border-bottom:1px solid #d2d2d2;
+	
+}
+
+.notify_content_two
+{
+	width:964px;
+	height:20px;
+	/*background-color:blue;*/
+	float:left;
+}
+
+.cs 
+{
+	min-width:80px;
+}

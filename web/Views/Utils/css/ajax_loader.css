@@ -1,0 +1,32 @@
+@CHARSET "ISO-8859-1";
+
+
+#ajax_loader_container
+{
+	z-index:10000000;
+	width:100%;
+	height:100%;
+	background-color:gray;
+	float:left;
+	top:0px;
+	left:0px;
+	position:fixed;
+	background-color:transparent;
+}
+
+#ajax_loader
+{
+	width:70px;
+	height:70px;
+	top:48%;
+	left:48%;
+	float:left;
+	position:fixed;
+}
+
+#ajax_loader_image
+{
+	background:url("../images/ajax_loader_big_gif");
+	width:100px;
+	height:100px;
+}

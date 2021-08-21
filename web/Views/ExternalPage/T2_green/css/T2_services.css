@@ -1,0 +1,80 @@
+@CHARSET "ISO-8859-1"  ;
+
+.T_service_title
+{
+	line-height: 50px;
+	line-height: 60px;
+	padding-left: 10px;
+}
+
+
+.T_video_container_Two
+{
+	position: relative;
+	float: none;
+	overflow: auto;
+	padding:0px 20px 0px 20px;
+}
+
+.T_video_container_Two li.video
+{
+	float: left;
+	width: 270px;
+	height: 170px;
+	padding:10px 10px 10px 0px;
+}
+
+.T_video_container_Two li
+{
+	margin: 5px;
+}
+.T_video_container_Two li p
+{
+	padding-right: 10px;
+}
+
+.T_video_container_Two li.videodesc
+{
+	min-width: 212px;
+}
+
+.T_image_container img
+{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.T_image_container .Img_Container
+{
+	max-width: 500px;
+	float: left;	
+	text-align: center;
+	vertical-align: middle;
+	padding: 10px;
+}
+
+.T_image_container .Img_Full_Banner
+{
+	text-align: center;
+	vertical-align: middle;
+	padding: 10px;
+	max-height: 250PX;
+}
+
+.T_menu_service p
+{
+	line-height: 25px;
+	padding: 10px 20px 20px 20px;
+}
+
+.videodesc p
+{
+	padding: 5px;
+}
+
+.T_products_list
+{
+	overflow: auto;
+	padding: 15px;
+
+}

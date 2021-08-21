@@ -1,0 +1,285 @@
+@CHARSET "ISO-8859-1";
+
+.rattingscontainer
+{
+	min-height: 720px;
+	background: white;
+	border:1px solid #c7c7c7;
+	font-family: verdana;
+}
+
+.ratingstextbox
+{
+	width: 985px;
+	height: 30px;
+	border: 5px solid #c8c8c8;
+	background: white;
+}
+
+.ratingstextbox:focus 
+{
+	border: 5px solid #f47d01;
+	outline: none;
+}
+
+.ratingscompanylist
+{
+	width:30%;
+	height: 672px;
+	float:  left;
+	
+}
+
+.ratingscompanylistInner
+{
+	border-right: 1px solid #cecece;
+	height: 722px;
+}
+
+.ratingsreview
+{
+	height: 672px;
+	width:70%;
+	float: right;
+}
+
+.ratingcompanyinfo
+{
+	height: 240px;
+	width: 100%;
+	border-bottom:1px solid #c8c8c8;
+}
+
+
+
+.rattingcompanydetails
+{
+	width:50%;
+	float: left;
+}
+
+.ratingcompanyimage
+{
+	float: left;
+	width: 40%;
+	height: 100%;
+}
+
+.ratingcompanyimageholder img
+{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.ratingcompanyimageholder
+{
+	width: 140px;
+	height: 140px;
+	text-align: center;
+	vertical-align: middle;
+	margin: 40px auto 0px auto;
+}
+
+.rattingcompanydetails
+{
+	padding: 30px;
+}
+
+.rattingcompanydetails > .ratting_row
+{
+	padding: 10px;
+}
+
+.ratting_row > label
+{
+	cursor: pointer;
+}
+
+.ratngs-btn-review {
+
+	cursor: pointer;
+	border: 1px solid #0387a8;
+	color: #fff;
+	padding:0px;	
+	width: 110px;
+	height: 26px;
+	font-size: 12px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	background: #0395bc;
+	background: -moz-linear-gradient(top,  #059fc1 0%, #059fc1 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#059fc1), color-stop(100%,#059fc1));
+	background: -webkit-linear-gradient(top,  #059fc1 0%,#059fc1 100%);
+	background: -o-linear-gradient(top,  #059fc1 0%,#059fc1 100%);
+	background: -ms-linear-gradient(top,  #059fc1 0%,#059fc1 100%);
+	background: linear-gradient(to bottom,  #059fc1 0%,#059fc1 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#059fc1', endColorstr='#059fc1',GradientType=0 );
+
+	text-decoration: none;
+}
+
+#ratingreviewlist
+{
+	height: 370px;
+	width: 100%;
+	overflow: auto;
+}
+
+.ratingreviewrow
+{
+	margin-bottom: 10px;
+    background: url('../images/review_separator.png') no-repeat bottom;
+}
+
+.ratingreviewlistcontainer
+{
+	margin: 0px 30px 0px 30px;
+}
+
+
+.ratingreviewrow > .reviewrowtitle
+{
+	float: left;
+	line-height: 15px;
+	padding-right: 15px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.reviewcomments
+{
+	padding: 10px 0px 15px 0px;
+	font-size: 14px;
+}
+
+.reviewlistheading
+{
+	margin: 20px 0px;
+}
+
+.ratingcompanylistrow
+{
+	height: 65px;
+	cursor: pointer;
+}
+
+.selectedItem
+{
+	background: #dae5e9;
+}
+
+.ratinglistcompanylog
+{
+	float: left;
+	margin: 10px;
+}
+
+.ratingcompanyrowsepartor
+{
+	float: none;
+	height: 1px;
+	background: #c3c9c9;
+}
+
+.ratingcompanyname, .reviewlistheading
+{
+	font-size: 18px;
+}
+
+.rating_number
+{
+	font-size: 14px;
+}
+
+
+#ratingswritereview
+{
+	margin: 20px 0px 0px 0px;
+}
+
+.ratingreviewinfo
+{
+	font-size: 11px;
+}
+.ratingcomapnydetails
+{
+	padding-top: 2px;
+}
+.ratingcomapnydetails .ratting_row
+{
+	padding: 3px 0px 0px 3px;
+}
+
+.fontsize14px
+{
+	font-size: 14px
+}
+
+.fontsize12px
+{
+	font-size: 12px
+}
+
+.rating_star_small_base
+{
+	background: url('../images/ratings_small_star.png') no-repeat;
+	width: 82px;
+	height: 14px;
+	display: inline-block;
+}
+
+.rating_star_0
+{
+	background-position:  0 0;
+}
+
+.rating_star_1
+{
+	background-position:  0 -12px;
+}
+
+.rating_star_2
+{
+	background-position:  0 -25px;
+}
+.rating_star_3
+{
+	background-position:  0 -38px;
+}
+.rating_star_4
+{
+	background-position:  0 -52px;
+}
+
+.rating_star_5
+{
+	background-position:  0 -67px;
+}
+
+.rating_star_6
+{
+	background-position:  0 -83px;
+}
+
+.rating_star_7
+{
+	background-position:  0 -98px;
+}
+
+.rating_star_8
+{
+	background-position:  0 -112px;
+}
+
+.rating_star_9
+{
+	background-position:  0 -125px;
+}
+
+.rating_star_10
+{
+	background-position:  0 -138px;
+}
+
+

@@ -1,0 +1,67 @@
+@CHARSET "UTF-8";
+
+#signupform
+{
+	height:740px;
+}
+
+.comtypeimg
+{
+	width:30px;
+	height:30px;
+	float:left;
+	margin-right:15px;
+}
+
+.infopopup
+{
+	height:22px;
+	width:21px;
+	margin-left:5px;
+	margin-right:0px;
+	margin-top:3px;
+	background-image:url('../images/help.png');
+	font-family:Verdana;
+	font-size:20px;
+	float:right;
+    display:block;
+    cursor:pointer;
+}
+
+.my-custom-theme {
+	border-radius: 5px; 
+	border: 1px solid #282828;
+	background: #f7f7f7;
+	color: #000;
+}
+
+/* Use this next selector to style things like font-size and line-height: */
+.my-custom-theme .tooltipster-content {
+	
+	font-family: Verdana;
+	font-size: 11px;
+	line-height: 16px;
+	padding: 8px 10px;
+}
+
+.captchareload
+{
+	width:15px;
+	height:17px;
+	background-image:url('../images/captchareload.png');
+	background-color:#fff;
+	margin-left:10px;
+	margin-top:10px;
+	border:none;
+	cursor:pointer;
+	
+}
+
+.captchabg
+{
+	background-image:url('../images/signupcaptcha.jpg');
+}
+
+
+
+ 

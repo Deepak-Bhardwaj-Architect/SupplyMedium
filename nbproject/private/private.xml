@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/lokesh/NetBeansProjects/SupplyMedium/src/java/core/regn/NewRegn.java</file>
+            <file>file:/home/lokesh/NetBeansProjects/SupplyMedium/src/java/servlet/companyprofile/ProfileUpdateServlet.java</file>
+            <file>file:/home/lokesh/NetBeansProjects/SupplyMedium/src/java/utils/ErrorMaster.java</file>
+            <file>file:/home/lokesh/NetBeansProjects/SupplyMedium/web/Views/Registration/jsp/companyProfile.jsp</file>
+            <file>file:/home/lokesh/NetBeansProjects/SupplyMedium/src/java/core/regn/RegnInsert.java</file>
+            <file>file:/home/lokesh/NetBeansProjects/SupplyMedium/src/java/utils/ErrorLogger.java</file>
+            <file>file:/home/lokesh/NetBeansProjects/SupplyMedium/web/Views/Registration/js/comapnyProfile.js</file>
+            <file>file:/home/lokesh/NetBeansProjects/SupplyMedium/src/java/utils/Mailer.java</file>
+            <file>file:/home/lokesh/NetBeansProjects/SupplyMedium/src/java/appconfig.properties</file>
+            <file>file:/home/lokesh/NetBeansProjects/SupplyMedium/src/java/errorcodeconfig.properties</file>
+            <file>file:/home/lokesh/NetBeansProjects/SupplyMedium/web/Views/Transaction/TransCommon/jsp/payment.jsp</file>
+            <file>file:/home/lokesh/NetBeansProjects/SupplyMedium/src/java/utils/InfoMailer.java</file>
+            <file>file:/home/lokesh/NetBeansProjects/SupplyMedium/src/java/core/companyprofile/CompanyProfileOperation.java</file>
+            <file>file:/home/lokesh/NetBeansProjects/SupplyMedium/src/java/ctrl/companyprofile/CompanyProfileController.java</file>
+            <file>file:/home/lokesh/NetBeansProjects/SupplyMedium/src/java/MailerSync.java</file>
+            <file>file:/home/lokesh/NetBeansProjects/SupplyMedium/src/java/core/common/EmailData.java</file>
+            <file>file:/home/lokesh/NetBeansProjects/SupplyMedium/src/java/ctrl/companyprofile/CompanyProfileDataConvertor.java</file>
+            <file>file:/home/lokesh/NetBeansProjects/SupplyMedium/src/java/core/common/Emailer.java</file>
+        </group>
+    </open-files>
+</project-private>

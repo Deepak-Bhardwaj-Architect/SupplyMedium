@@ -1,0 +1,56 @@
+.email_composer_outline
+{
+	width:600px !important;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:-200px 0px 0px -300px !important;
+	background-color:white;
+	height:400px;
+}
+
+
+.left_label
+{
+	width:90px;
+	height:20px;
+	float:left;
+	font-family:verdana;
+	font-size:14px;
+	color:#464646;
+	margin:40px 0px 0px 20px;;
+	
+}
+
+.right_text
+{
+	width:450px;
+	height:250px;
+	float:left;
+	margin-top:40px;
+}
+
+.textarea
+{
+	float:left;
+	font-family:verdana;
+	font-size:14px;
+	color:#464646;
+	width:450px;
+	height:250px;
+	padding:5px;
+	resize:none;
+	background-color:#f3f3f3;
+	border:1px solid #c8c8c8;
+}
+
+.button
+{
+	width:220px;
+	height:40px;
+	margin-left:235px;
+	float:left;
+	margin-top:14px;
+}
+
+

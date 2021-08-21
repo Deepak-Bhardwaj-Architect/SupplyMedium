@@ -1,0 +1,100 @@
+@CHARSET "ISO-8859-1";
+
+
+.add_remainder_outline
+{
+	width:600px !important;
+	height:430px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:-215px 0px 0px -300px !important;
+	background-color:white;
+}
+
+.title_head
+{
+	width:580px;
+	height:40px;
+	background-color:#65b0c4;
+	float:left;
+	font-family:Verdana;
+	font-size:18px;
+	color:#fff;
+	line-height:40px;
+	padding-left:20px;
+	margin-bottom:1px;
+}
+
+.remainder_container
+{
+	width:600px;
+	min-height:36px;
+	float:left;
+	margin-top:30px;
+}
+
+.add_rem_left_label
+{
+	width:140px;
+	height:20px;
+	float:left;
+	font-family:Verdana;
+	font-size:14px;
+	color:#505050;
+	padding-left:30px;
+	line-height:20px;
+}
+
+.text_area
+{
+	width:400px;
+	height:200px;
+	float:left;
+	resize:none;
+	background-color:#f6f6f6;
+	border:1px solid #c8c8c8;
+	padding:5px;
+	font-family:Verdana;
+	font-size:14px;
+	color:#505050;
+	outline:none;
+}
+
+.dat
+{
+	width:198px;
+	height:34px;
+	float:left;
+	background-color:#f6f6f6;
+	border:1px solid #c8c8c8;
+}
+
+.calendar_style
+{
+	background-color:#f6f6f6;
+	border:none;
+	width:170px;
+	height:34px;
+	float:left;
+	font-family:Verdana;
+	font-size:14px;
+	color:#505050;
+	outline:none;
+	text-align:center;
+	cursor:default;
+}
+
+.calendar_img
+{
+	width:20px;
+	height:20px;
+	float:left;
+	margin-top:7px;
+	cursor:pointer;
+}
+
+.ui-datepicker-trigger
+{
+	cursor:pointer !important;
+}
