@@ -1,0 +1,15 @@
+.body {
+	margin: 0px;
+}
+.pagetitlecontainer {
+	width: 100%; background-color: rgb(76, 182, 207);
+}
+.pagetitle {
+	width: 1024px; height: 40px; text-align: center; color: rgb(255, 255, 255); line-height: 40px; font-family: Verdana; font-size: 22px; margin-right: auto; margin-left: auto;
+}
+.contentcontainer {
+	width: 100%; height: auto; padding-top: 20px; padding-bottom: 20px; background-color: rgb(241, 241, 241);
+}
+.content {
+	border: 1px solid rgb(120, 120, 120); width: 1024px; height: auto; font-family: "Lucida Sans Unicode", Times, serif; font-size: 12px; margin-right: auto; margin-left: auto; min-height: 720px; background-color: rgb(255, 255, 255);
+}

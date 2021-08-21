@@ -1,0 +1,115 @@
+.row {
+	width: 490px; height: 50px;
+}
+.label {
+	width: 200px; height: 25px; color: rgb(40, 40, 40); line-height: 30px; font-family: "Verdana", Times, serif; font-size: 15px; float: left;
+}
+.captchalabel {
+	width: 82px; height: 38px; text-align: center; color: rgb(40, 40, 40); line-height: 38px; font-family: "Verdana", Times, serif; font-size: 20px; margin-right: 20px; margin-left: 10px; float: left;
+}
+.fielderr {
+	width: 150px; float: left;
+}
+#buttons {
+	width: 300px; padding-top: 30px; padding-left: 550px; float: left;
+}
+.textbox {
+	padding: 4px; border: 1px solid rgb(165, 183, 187); width: 178px; height: 17px; font-family: "Verdana",Arial,sans-serif; font-size: 12px; float: left; background-color: rgb(243, 243, 243); align: absmiddle;
+}
+.textbox:focus {
+	border: 1px solid rgb(244, 125, 1);
+}
+.textbox_disable {
+	padding: 4px; border: currentColor; width: 178px; height: 17px; font-family: "Verdana",Arial,sans-serif; font-size: 12px; float: left; background-color: white; align: absmiddle;
+}
+.capthatextbox {
+	border-radius: 5px; border: 1px solid rgb(165, 183, 187); width: 40px; height: 25px; padding-right: 6px; padding-left: 6px; font-family: "Verdana",Arial,sans-serif; font-size: 12px; margin-top: 5px; margin-left: 20px; float: left; background-color: rgb(243, 243, 243); -moz-border-radius: 5px; -webkit-border-radius: 5px; align: absmiddle;
+}
+.capthatextbox:focus {
+	border: 1px solid rgb(244, 125, 1);
+}
+.customSelect {
+	background: url("CompoDown.png") no-repeat right rgb(243, 243, 243); padding: 4px 15px 2px 6px; border: 1px solid rgb(165, 183, 187); height: 20px; font-family: Verdana,Arial,sans-serif; font-size: 12px; align: absmiddle; -webkit-appearance: none; -moz-appearance: none;
+}
+.customSelectHover.customSelect {
+	
+}
+.customSelectOpen.customSelect {
+	
+}
+.customSelectFocus.customSelect {
+	border: 1px solid rgb(244, 125, 1);
+}
+.customSelectInner {
+	display: inline !important;
+}
+.selectbox {
+	width: 165px; line-height: 19px; overflow: hidden; min-width: 165px;
+        margin-bottom: 5px; -webkit-appearance: menulist-button; width: 188px; position: absolute; height: 24px; font-size: 12px;background-color: rgb(243, 243, 243);border: 1px solid rgb(165, 183, 187);
+}
+.fieldset {
+	border: 1px solid rgb(165, 183, 187); width: 365px; font-family: "Lucida Grande",Arial,sans-serif; background-color: rgb(255, 255, 255);
+}
+.button {
+	border: currentColor; width: 98px; height: 36px; color: rgb(255, 255, 255); font-family: "Lucida Grande",Arial,sans-serif; font-size: 14px; float: left; cursor: pointer; background-color: rgb(255, 255, 255);
+}
+.checkbox {
+	width: 20px; height: 20px;
+}
+.okbtn {
+	background: rgb(18, 118, 127); border: 1px solid rgb(7, 140, 170); color: rgb(255, 255, 255); font-family: Verdana; font-size: 12px; filter: progid:DXImageTransform.Microsoft.gradient(  startColorstr='#12767f',
+		endColorstr='#208e98', GradientType=0 ); cursor: pointer;
+}
+.okbtn:hover {
+	filter: progid:DXImageTransform.Microsoft.gradient(  startColorstr='#008cab',
+		endColorstr='#2f8ba0', GradientType=0 ); background-color: rgb(7, 140, 170);
+}
+.okbtn:active {
+	
+}
+.cancelbtn {
+	
+}
+.delbtn {
+	background: rgb(227, 25, 20); border: 1px solid rgb(216, 5, 0); color: rgb(255, 255, 255); font-family: Verdana; font-size: 12px; filter: progid:DXImageTransform.Microsoft.gradient(  startColorstr='#e31914',
+		endColorstr='#af0400', GradientType=0 ); cursor: pointer;
+}
+.delbtn:hover {
+	background: rgb(216, 5, 0);
+}
+.delbtn:active {
+	
+}
+.previousbtn {
+	color: rgb(244, 125, 1); background-image: url("previous_button.png");
+}
+.file {
+	width: 200px; height: 25px; font-size: 14px;
+}
+label.error {
+	border: currentColor; width: 270px; color: red; line-height: 15px; font-family: Verdana; font-size: 11px; margin-left: 200px; float: left;
+}
+.error {
+	border: 2px solid rgb(255, 0, 0);
+}
+.border {
+	border: 1px solid rgb(165, 183, 187);
+}
+.loader {
+	margin: 0px; width: 25px; height: 25px; float: left; background-image: url("ajax_loader.gif"); background-repeat: no-repeat;
+}
+.validtick {
+	margin: 10px; width: 16px; height: 14px; float: left; background-image: url("valid.png"); background-repeat: no-repeat;
+}
+.invalidsymbol {
+	margin: 10px; width: 13px; height: 13px; float: left; background-image: url("invalid.png"); background-repeat: no-repeat;
+}
+.radiobtn {
+	width: 20px; height: 17px;
+}
+.mandatory {
+	color: rgb(243, 125, 1); font-size: 15px;
+}
+.formseparator {
+	width: 2px; height: auto; margin-top: 20px; float: left; background-image: url("form_seperator.png");
+}

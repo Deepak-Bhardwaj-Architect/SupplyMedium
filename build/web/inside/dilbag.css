@@ -1,0 +1,31 @@
+img{border:none!important;}
+.dilbag-lca {
+	margin: 15px; width: 40%; float: right;
+}
+.dilbag-like {
+	background: rgb(255, 255, 255); margin: 2px; padding: 5px; border-radius: 5px; border: 1px solid rgb(5, 138, 167); color: rgb(5, 138, 167); font-weight: bold; float: left; cursor: pointer; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+.dilbag-comment {
+	background: rgb(255, 255, 255); margin: 2px; padding: 5px; border-radius: 5px; border: 1px solid rgb(5, 138, 167); color: rgb(5, 138, 167); font-weight: bold; float: left; cursor: pointer; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+.dilbag-action {
+	display:none;background: rgb(255, 255, 255); margin: 2px; padding: 5px; border-radius: 5px; border: 1px solid rgb(5, 138, 167); color: rgb(5, 138, 167); font-weight: bold; float: left; cursor: pointer; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+.dilbag-action-list {
+	background: rgb(255, 255, 255); padding: 5px; border-radius: 5px; border: 1px solid rgb(5, 138, 167); width: 40px; color: rgb(5, 138, 167); font-weight: bold; margin-left: 2px; float: left; cursor: pointer; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+.contact_detail_error {
+	background: rgb(222, 123, 19); margin: auto auto auto 30%; padding: 15px; border-radius: 5px; border: 1px solid rgb(5, 138, 167); width: 420px; color: rgb(255, 255, 255); display: none; position: fixed; z-index: 9999999; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+.update_user_detail2 {
+	background: rgb(222, 123, 19); margin: auto auto auto 40%; padding: 15px; border-radius: 5px; border: 1px solid rgb(5, 138, 167); width: 230px; height: auto; color: rgb(255, 255, 255); font-size: large; display: none; position: fixed; z-index: 9999999; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+.rfq_post_confirmation {
+	background: rgb(241, 241, 241); margin: auto auto auto 18%; padding: 15px; border-radius: 5px; border: 1px solid rgb(5, 138, 167); width: 500px; height: 200px; color: rgb(21, 141, 168); font-size: large; display: none; position: fixed; z-index: 9999999; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+.folder_ul {
+	padding: 5px; width: 205px;
+}
+.folder_ul li {
+	background: rgb(200, 200, 200); padding: 2px; border-radius: 2px; width: 201px; color: black; font-family: Verdana; font-size: 14px; margin-top: 2px; cursor: pointer; -moz-border-radius: 2px; -webkit-border-radius: 2px;
+}

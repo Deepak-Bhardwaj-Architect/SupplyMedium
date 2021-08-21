@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link class="include" rel="stylesheet" type="text/css" href="jquery.jqplot.min.css" />
+    <link type="text/css" rel="stylesheet" href="shCoreDefault.min.css" />
+    <link type="text/css" rel="stylesheet" href="shThemejqPlot.min.css" />
+  
+    <!--[if lt IE 9]><script language="javascript" type="text/javascript" src="../excanvas.js"></script><![endif]-->
+    <script class="include" type="text/javascript" src="jquery.min.js"></script>
+</head>
+<body>
+        
+    <div id="pie1" style="margin-top:20px; margin-left:20px; width:200px; height:200px;"></div>
+<!--<pre class="code brush:js"></pre>-->
+
+
+
+<script type="text/javascript">$(document).ready(function(){
+    var plot1 = $.jqplot('pie1', [[['a',25],['b',14],['c',7]]], {
+        gridPadding: {top:0, bottom:38, left:0, right:0},
+        seriesDefaults:{
+            renderer:$.jqplot.PieRenderer, 
+            trendline:{ show:false }, 
+            rendererOptions: { padding: 8, showDataLabels: true }
+        },
+        legend:{
+            show:true, 
+            placement: 'outside', 
+            rendererOptions: {
+                numberRows: 1
+            }, 
+            location:'s',
+            marginTop: '15px'
+        }       
+    });
+});</script>
+	
+	
+	
+	
+    <script class="include" type="text/javascript" src="jquery.jqplot.min.js"></script>
+    <script type="text/javascript" src="shCore.min.js"></script>
+    <script type="text/javascript" src="shBrushJScript.min.js"></script>
+    <script type="text/javascript" src="shBrushXml.min.js"></script>
+<!-- Additional plugins go here -->
+
+  <script class="include" type="text/javascript" src="jqplot.pieRenderer.min.js"></script>
+  <script class="include" type="text/javascript" src="jqplot.categoryAxisRenderer.min.js"></script>
+  <script class="include" type="text/javascript" src="jqplot.pointLabels.min.js"></script>
+</body>
+
+
+</html>

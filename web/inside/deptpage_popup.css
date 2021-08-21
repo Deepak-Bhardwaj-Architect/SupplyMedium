@@ -1,0 +1,61 @@
+@CHARSET "ISO-8859-1";
+
+.deptpopuplayout
+{
+	height:480px ;
+	width:700px !important;
+	position:fixed;
+	top:20%;
+	left:30%;
+}
+
+.deptpopupcontent
+{
+	
+}
+
+.data_table_content
+{
+	height:385px;
+	width:700px;
+	float:left;
+	
+}
+
+.btn_container
+{
+	height:43px;
+	background-color:#494949;
+	padding-left:200px;
+	padding-top:17px;
+	float:left;
+	width:500px;
+}
+
+.file_list
+{
+	width:700px;
+	margin:0px !important;
+	padding:0px;
+}
+
+.restorebtn
+{
+	height:25px;
+}
+
+table#file_list.file_list.dataTable thead tr
+{
+	display:none;
+}
+
+table.file_list.dataTable
+{
+	width:700px !important;
+}
+
+
+.dataTables_scrollBody
+{
+	overflow:auto;
+}
