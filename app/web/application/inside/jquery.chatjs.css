@@ -1,0 +1,133 @@
+.dilbag-s {
+    color: rgb(109, 132, 180); margin-left: 30px;
+}
+.dilbag-r {
+    color: green; margin-left: 30px;
+}
+.chat-window {
+    float:right;
+    margin-right:10px;
+    border: 1px solid rgba(0, 0, 0, 0.3); width: 230px; 
+    bottom: 0px; line-height: 14.4px; 
+    font-family: Arial,Helvetica; font-size: 12px; 
+    position: fixed; z-index: 10000; box-shadow: 0px 0px 10px #d5d5d5; 
+    background-color: rgb(255, 255, 255);
+}
+.chat-window .temp-message {
+    color: rgb(176, 176, 176);
+}
+.chat-window-title {
+    background: 0px 0px rgb(109, 132, 180); padding: 6px; color: rgb(255, 255, 255); overflow: hidden; font-weight: bold; border-bottom-color: rgb(215, 215, 215); border-bottom-width: 1px; border-bottom-style: solid; cursor: pointer;
+}
+.chat-window-title .text {
+    height: 16px; color: white; margin-top: 1px; margin-left: 0px;
+}
+.chat-window-title .close {
+    width: 16px; height: 16px; float: right; opacity: 0.7; 
+    background-image: url("clear.png");
+}
+.chat-window-title .close:hover {
+    opacity: 0.5;
+}
+.unread.chat-window-title {
+    background: 0px 0px white;
+}
+.online.chat-window-title {
+    background-position: 8px 10px; padding-left: 22px; background-image: url("chat-online.png"); background-repeat: no-repeat;
+}
+.offline.chat-window-title {
+    background-position: 8px 10px; padding-left: 22px; background-image: url("chat-offline.png"); background-repeat: no-repeat;
+}
+.chat-window-inner-content {
+    height: 200px; margin-bottom: 2px; overflow-y: auto;
+}
+.chat-window-inner-content .loading-box {
+    padding: 30px;
+}
+textarea.chat-window-text-box {
+    margin: 0px; padding: 5px; border-radius: 0px; width: 100%; line-height: 1.2em; overflow: hidden; font-size: 12px; box-sizing: border-box; resize: none; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.user-list-item {
+    background-position: 2px; margin: 5px; height: 25px; overflow: hidden; cursor: pointer; background-repeat: no-repeat;
+}
+.profile_picture_container {
+    width: 25px; height: 25px; text-align: center; vertical-align: middle; float: left; position: relative;
+}
+.profile_image {
+    margin: auto; left: 0px; right: 0px; bottom: 0px; position: absolute; max-height: 100%; max-width: 100%;
+}
+.user-list-item .profile-picture {
+    width: 25px; height: 25px; float: left; display: block;
+}
+.user-list-item .no-profile-picture {
+    width: 25px; height: 25px; float: left; display: block; background-image: url("no_image_icon.png");
+}
+.user-list-item .profile-status {
+    margin: 10px 6px 0px; width: 7px; height: 7px; float: right; display: block;
+}
+.user-list-item .online.profile-status {
+    background-image: url("chat-online.png"); background-repeat: no-repeat;
+}
+.user-list-item .offline.profile-status {
+    background-image: url("chat-offline.png"); background-repeat: no-repeat;
+}
+.user-list-item .content {
+    margin: 5px 22px 0px 10px !important; padding: 0px !important; border: currentColor !important; width: auto !important; float: left;
+}
+.offline.user-list-item {
+    background-image: url("chat-offline.png");
+}
+.online.user-list-item {
+    background-image: url("chat-online.png");
+}
+.user-list-empty {
+    background-position: 2px; padding: 10px; background-repeat: no-repeat;
+}
+.chat-window-text-box-wrapper {
+    padding: 2px;
+}
+.chat-message {
+    margin: 0px 5px; padding: 5px 0px; overflow: hidden; border-bottom-color: rgb(234, 234, 234); border-bottom-width: 1px; border-bottom-style: solid;
+}
+:last-child.chat-message {
+    border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.chat-message .chat-gravatar-wrapper {
+    float: left;
+}
+.chat-message .chat-text-wrapper {
+    line-height: 1.2em; margin-top: 20px; margin-left: 40px;
+}
+.chat-message p {
+    margin: 0px;
+}
+.chat-window-content {
+
+}
+.chat-window-content .message-warning {
+    margin: 0px;
+}
+.chat-window-content .typing-signal {
+    margin: 3px 8px; color: gray;
+}
+.chat-window-content input[type=text] {
+    margin: 0px; border-radius: 0px; height: auto; box-sizing: border-box; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075); transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.happy {
+    width: 16px; height: 16px; vertical-align: top; display: inline-block; background-image: url("Emoticons/smile-2.png");
+}
+.very-happy {
+    width: 16px; height: 16px; vertical-align: top; display: inline-block; background-image: url("Emoticons/smile-1.png");
+}
+.sad {
+    width: 16px; height: 16px; vertical-align: top; display: inline-block; background-image: url("Emoticons/smile-3.png");
+}
+.wary {
+    width: 16px; height: 16px; vertical-align: top; display: inline-block; background-image: url("Emoticons/smile-4.png");
+}
+.astonished {
+    width: 16px; height: 16px; vertical-align: top; display: inline-block; background-image: url("Emoticons/smile-5.png");
+}
+.tongue {
+    width: 16px; height: 16px; vertical-align: top; display: inline-block; background-image: url("Emoticons/smile-6.png");
+}

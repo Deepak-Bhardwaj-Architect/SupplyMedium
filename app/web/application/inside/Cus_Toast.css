@@ -1,0 +1,54 @@
+
+#Toast_Window {
+background: white;
+margin: -100px 0px 0px -235px;
+border-radius: 10px;
+border: 5px solid rgba(243, 125, 1, 0.64);
+left: 50%;
+top: 50%;
+width: 470px;
+height: 200px;
+line-height: 200px;
+font-family: verdana,tahoma,arial,sans-serif;
+font-size: 14px;
+position: fixed;
+z-index: 101000;
+opacity: 0.95;
+box-shadow: 0px 0px 25px rgba(0,0,0,0.95);
+-webkit-box-shadow: 0px 0px 25px rgba(3, 155, 194, 0.95);
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.65);
+-moz-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.95);
+}
+
+.Toast_Data {
+	margin: auto; width: 470px; height: 200px; text-align: center; color: rgb(86, 86, 86); line-height: normal; padding-right: 60px; padding-left: 60px; vertical-align: middle; display: table-cell;
+}
+
+#Toast_Window2 {
+background: white;
+margin: -100px 0px 0px -235px;
+border-radius: 10px;
+border: 5px solid rgba(243, 125, 1, 0.64);
+bottom: 40px;
+left: 260px;
+width: 320px;
+height: 80px;
+line-height: 200px;
+font-family: verdana,tahoma,arial,sans-serif;
+font-size: 14px;
+position: fixed;
+z-index: 101000;
+opacity: 0.95;
+box-shadow: 0px 0px 25px rgba(0,0,0,0.95);
+-webkit-box-shadow: 0px 0px 25px rgba(3, 155, 194, 0.95);
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.65);
+-moz-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.95);
+}
+
+.Toast_Data2 {
+	margin: auto; width: 320px;line-height:14px; height: 80px; text-align: center; color: rgb(86, 86, 86); line-height: normal; padding-right: 60px; padding-left: 60px; vertical-align: middle; display: table-cell;
+}

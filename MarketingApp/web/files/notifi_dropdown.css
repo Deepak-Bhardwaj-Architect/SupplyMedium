@@ -1,0 +1,189 @@
+@CHARSET "ISO-8859-1";
+body
+{
+	margin:0px;
+}
+
+.notification_container
+{
+	width: 430px;
+	height: 600px;
+	position: absolute;
+	top: 60px;
+	left: 595px;
+	z-index: 1000;
+	
+}
+
+.arrow_box 
+{
+	width:0;
+	height:0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 15px solid #d2d2d2;
+	margin-left:295px;
+	float:left;
+}
+
+.drop_box
+{
+	width:430px;
+	height:585px;
+	background-color:#d2d2d2;
+	float:left;
+	-webkit-box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:    0px 4px 5px rgba(0, 0, 0, 0.5);
+	box-shadow:         0px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.title
+{
+	width:420px;
+	height:40px;
+	color:#3c3c3c;
+	font-family:Verdana;
+	font-size:18px;
+	margin-left:10px;
+	line-height:40px;
+	pointer:default;
+	
+}
+
+.white_space
+{
+	width:408px;
+	height:518px;
+	border:1px solid #c8c8c8;
+	background-color:#fff;
+	margin-left:10px;
+}
+
+.see_more
+{
+	width:430px;
+	height:25px;
+	color:#3b5998;
+	font-family:Verdana;
+	font-size:14px;
+	text-align:center;
+	line-height:24px;
+	cursor:pointer;
+}
+
+.see_more:hover
+{
+	text-decoration:underline;
+}
+
+.data_container
+{
+	width: 408px;
+	height: 518px;
+	overflow: auto;
+}
+.user_container
+{
+	width:408px;
+	min-height:65px;
+	height:auto;
+	float:left;
+	cursor:pointer;
+}
+
+.user_container:hover
+{
+	background-color:#f2f6f7;
+}
+
+.no_image
+{
+	max-width:50px;
+	max-height:50px;
+	margin-left:5px;
+	margin-top:8px;
+	float:left;
+}
+
+.user_cont
+{
+	width:320px;
+	min-height:60px;
+	
+	height:auto;
+	float:left;
+	margin-left:10px;
+	margin-top:5px;
+}
+
+.noti_text_label
+{
+	width:320px;
+	color:#333333;
+	font-family:Verdana;
+	font-size:12px;
+	line-height:16px;
+	float:left;
+	margin-top:12px;
+}
+
+.noti_date
+{
+	width: 152px;
+	height: 20px;
+	float: left;
+	color: #999;
+	font-family: Verdana;
+	font-size: 12px;
+	line-height: 20px;
+	margin-top: 10px;
+}
+
+.button_container
+{
+	width:130px;
+	height:20px;
+	float:right;
+	margin-top:5px;
+}
+
+.acc_button
+{
+	width:60px;
+	height:20px;
+	text-align:center;
+	font-family:Verdana;
+	font-size:12px;
+	color:#fff;
+	background-color:#1E9EBB;
+	line-height:18px;
+	float:left;
+	border:none;
+	cursor:pointer;
+}
+
+.acc_button:hover
+{
+	background-color:#1E9EBB;
+}
+
+.rej_button
+{
+	width:60px;
+	height:20px;
+	text-align:center;
+	font-family:Verdana;
+	font-size:12px;
+	color:#fff;
+	background-color:#f50a00;
+	line-height:18px;
+	float:left;
+	margin-left:10px;
+	border:none;
+	cursor:pointer;
+}
+
+.rej_button:hover
+{
+	background-color:#db0902;
+}

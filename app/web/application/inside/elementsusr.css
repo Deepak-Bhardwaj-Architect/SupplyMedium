@@ -1,0 +1,370 @@
+@CHARSET "UTF-8";
+.row
+{
+	width:490px;
+	height:50px;
+}
+
+.label
+{
+	width:200px;
+	float:left;
+	font-family: "Verdana", Times, serif;
+	font-size: 15px;
+	color:#282828;
+	height:25px;
+	line-height:30px;
+}
+
+.captchalabel
+{
+	font-size: 20px; 
+	height:38px;
+	width: 82px;
+	font-family: "Verdana", Times, serif;
+	font-size: 20px;
+	color:#282828;
+	margin-left:10px;
+	margin-right:20px;
+	line-height:38px;
+	text-align:center;
+	float:left;
+	
+}
+
+
+.fielderr
+{
+	width:150px;
+	float:left;
+}
+
+#buttons
+{
+	width:300px;
+	padding-left:550px;
+	padding-top:30px;
+	float:left;
+}
+
+.textbox
+{
+	font-family:"Verdana",Arial,sans-serif;
+	border: 1px solid #a5b7bb;
+	background-color:#f3f3f3 ;
+	width:178px;
+	font-size:12px;
+	padding:4px;
+	height:17px;
+	align:absmiddle;
+	float:left;
+}
+
+
+.textbox:focus
+{
+	border: 1px solid #f47d01;
+	outline:none;
+}
+
+.textbox_disable 
+{
+	font-family: "Verdana",Arial,sans-serif;
+	border: none;
+	background-color: white;
+	width: 178px;
+	font-size: 12px;
+	padding: 4px;
+	height: 17px;
+	align: absmiddle;
+	float: left;
+}
+
+.capthatextbox
+{
+	font-family:"Verdana",Arial,sans-serif;
+	border: 1px solid #a5b7bb;
+	background-color:#f3f3f3 ;
+	width:40px;
+	font-size:12px;
+	padding-left:6px;
+	padding-right:6px;
+	margin-top:5px;
+	height:25px;
+	align:absmiddle;
+	float:left;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-border-radius:5px;
+	margin-left:20px;
+}
+
+.capthatextbox:focus
+{
+	border: 1px solid #f47d01;
+	outline:none;
+}
+
+
+
+.customSelect 
+{ 
+/* This is the default class that is used */
+/* Put whatever custom styles you want here */
+
+	font-family: Verdana,Arial,sans-serif;
+	border: 1px solid #A5B7BB;
+	font-size: 12px;
+	padding: 4px 15px 2px 6px;
+	height: 20px;
+	background: #F3F3F3 url('CompoDown.png') no-repeat right;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	align:absmiddle;
+}
+
+.customSelect.customSelectHover
+ {
+/* Styles for when the select box is hovered */
+
+
+}
+
+.customSelect.customSelectOpen 
+{
+/* Styles for when the select box is open */
+
+}
+
+.customSelect.customSelectFocus 
+{
+/* Styles for when the select box is in focus */
+
+	border: 1px solid #f47d01;
+	outline:none;
+}
+
+.customSelectInner 
+{
+/* You can style the inner box too */
+
+display:inline !important;
+
+}
+
+
+.selectbox
+{
+	min-width:165px;
+	/*max-width:165px;
+	overflow:hidden;
+	line-height:19px;*/
+	overflow:hidden;
+	line-height:19px;
+	width:165px;
+}
+
+
+
+.fieldset
+{
+	border: 1px solid #a5b7bb;
+	font-family:"Lucida Grande",Arial,sans-serif;
+	background-color:#fff ;
+	width: 365px;
+}
+
+
+
+.button
+{
+	color:#fff;
+	float:left;
+	cursor:pointer;
+    border: none;
+    background-color:#fff;
+    width:98px;
+	height:36px;
+	font-family:"Lucida Grande",Arial,sans-serif;
+	font-size:14px;
+}
+
+.checkbox
+{
+	width:20px;
+	height:20px;
+}
+
+.okbtn
+{
+	border: 1px solid #078caa;
+	cursor:pointer;
+	color:#fff;
+	font-family:Verdana;
+	font-size:12px;
+	
+	/*-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius:5px;*/
+	
+	
+	background: #12767f;
+	background: -moz-linear-gradient(top, #12767f 1%, #208e98 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #12767f),
+		color-stop(100%, #208e98) );
+	background: -webkit-linear-gradient(top, #12767f 1%, #208e98 100%);
+	background: -o-linear-gradient(top, #12767f 1%, #208e98 100%);
+	background: -ms-linear-gradient(top, #12767f 1%, #208e98 100%);
+	background: linear-gradient(to bottom, #12767f 1%, #208e98 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(  startColorstr='#12767f',
+		endColorstr='#208e98', GradientType=0 );
+}
+
+.okbtn:hover
+{
+	
+	background-color:#078caa;
+	background: -moz-linear-gradient(top, #078caa 0%, #008cab 51%, #2f8ba0 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #078caa),
+		color-stop(51%, #008cab), color-stop(100%, #2f8ba0) );
+	background: -webkit-linear-gradient(top, #078caa 0%, #008cab 51%, #2f8ba0 100%);
+	background: -o-linear-gradient(top, #078caa 0%, #008cab 51%, #2f8ba0 100%);
+	background: -ms-linear-gradient(top, #078caa 0%, #008cab 51%, #2f8ba0 100%);
+	background: linear-gradient(to bottom, #078caa 0%, #008cab 51%, #2f8ba0 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(  startColorstr='#008cab',
+		endColorstr='#2f8ba0', GradientType=0 );
+	
+}
+
+.okbtn:active
+{
+	
+}
+
+.cancelbtn
+{
+	
+}
+
+.delbtn
+{
+	
+	border: 1px solid #d80500;
+	color:#fff;
+	cursor:pointer;
+	font-family:Verdana;
+	font-size:12px;
+	
+	/*-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius:5px;*/
+	
+	background: #e31914;
+	background: -moz-linear-gradient(top, #e31914 1%, #af0400 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #e31914),
+		color-stop(100%, #af0400) );
+	background: -webkit-linear-gradient(top, #e31914 1%, #af0400 100%);
+	background: -o-linear-gradient(top, #e31914 1%, #af0400 100%);
+	background: -ms-linear-gradient(top, #e31914 1%, #af0400 100%);
+	background: linear-gradient(to bottom, #e31914 1%, #af0400 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(  startColorstr='#e31914',
+		endColorstr='#af0400', GradientType=0 );
+}
+
+.delbtn:hover
+{
+	background:#d80500;
+	
+}
+
+.delbtn:active
+{
+	
+}
+
+.previousbtn
+{
+	background-image:url('previous_button.png');
+	color:#f47d01;
+}
+
+.file
+{
+	width:200px;
+	height:25px;
+	font-size:14px;
+}
+
+label.error{
+   
+    width:270px;
+    color:red;
+    float:left;
+    margin-left:200px;
+    border:none;
+    line-height:15px;
+    font-size:11px;
+    font-family:Verdana;
+}
+
+.error
+{
+	border: 2px solid #f00;
+}
+
+.border
+{
+	border: 1px solid #A5B7BB;
+}
+.loader
+{
+	background-image:url('ajax_loader.gif');
+	background-repeat: no-repeat;
+	width:25px;
+	height:25px;
+	float:left;
+	margin:0px;
+}
+
+.validtick
+{
+	background-image:url('valid.png');
+	background-repeat: no-repeat;
+	width:16px;
+	height:14px;
+	float:left;
+	margin:10px;
+}
+
+.invalidsymbol
+{
+	background-image:url('invalid.png');
+	background-repeat: no-repeat;
+	width:13px;
+	height:13px;
+	float:left;
+	margin:10px;
+}
+
+.radiobtn
+{
+	width:20px;
+	height:17px;
+}
+
+
+
+.mandatory
+{
+	color:#f37d01;
+	font-size:15px;
+}
+
+.formseparator
+{
+	margin-top:20px;
+	width:2px;
+	height:auto;
+	background-image:url('form_seperator.png');
+	float:left;
+}

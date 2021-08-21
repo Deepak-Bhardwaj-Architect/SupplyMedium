@@ -1,0 +1,227 @@
+@CHARSET "ISO-8859-1";
+body
+{
+	margin:0px;
+}
+
+.tc_content
+{
+	width:1002px;
+	float:left;
+}
+
+
+/*---------------------Menu Bar------------------*/
+
+.menu_container
+{
+	width:1002px;
+	height:36px;
+}
+
+.tab_container
+{
+	width:600px;
+	height:24px;
+	float:left;
+}
+
+.tab_orange
+{
+	width:150px;
+	height:24px;
+	float:left;
+	background-color:#de7b13;
+	font-family:verdana;
+	font-size:14px;
+	color:#fff;
+	text-align:center;
+	line-height:22px;
+	cursor:pointer;
+}
+
+.tab_gray
+{
+	width:120px;
+	height:22px;
+	border:1px solid #c8c8c8;
+	float:left;
+	background-color:#858585;
+	font-family:verdana;
+	font-size:14px;
+	color:#fff;
+	text-align:center;
+	line-height:22px;
+	cursor:pointer;
+
+}
+
+/*---------------------------------Transaction Settings---------------------------------*/
+
+.transet_container
+{
+	width:1000px;
+	height:684px;
+	float:left;
+	border-left:1px solid #c8c8c8;
+	border-right:1px solid #c8c8c8;
+	background-color:#fff;
+}
+
+.transet_title
+{
+	width:1002px;
+	height:45px;
+	font-family:verdana;
+	font-size:24px;
+	color:#969696;
+	text-align:center;
+	float:left;
+	padding-top:15px;
+	cursor:default;
+}
+
+.transet_content
+{
+	width:898px;
+	height:598px;
+	float:left;
+	background-color:#fdfdfd;
+	border:1px solid #c8c8c8;
+	margin-left:50px;
+}
+
+.transet_lable
+{
+	width:300px;
+	height:24px;
+	float:left;
+	text-align:center;
+	margin-top:40px;
+	color:#787878;
+	font-family:verdana;
+	font-size:18px;
+	margin-left:310px;
+	cursor:default;
+}
+
+.transet_upload_cont
+{
+	width:900px;
+	height:150px;
+	float:left;
+	margin-top:140px;
+}
+
+.upload_txt_cont
+{
+	width:332px;
+	height:24px;
+	float:left;
+	cursor:pointer;
+}
+
+.upload_img
+{
+	width:22px;
+	height:22px;
+	float:left;
+}
+
+.upload_txt_lable
+{
+	width:300px;
+	height:24px;
+	float:left;
+	font-family:Verdana;
+	font-size:15px;
+	color:#787878;
+	margin-left:10px;
+	line-height:21px;
+	cursor:pointer;
+}
+
+.transet_or
+{
+	width:900px;
+	height:24px;
+	font-family:Verdana;
+	font-size:15px;
+	color:#787878;
+	float:left;
+	text-align:center;
+	cursor:default;
+}
+
+/*---------------------Transaction Settings Lable View---------------------------------*/
+
+.edit_container
+{
+	width:60px;
+	height:25px;
+	float:right;
+	margin-top:5px;
+	cursor:pointer;
+}
+
+.edit_lable
+{
+	width:33px;
+	height:24px;
+	font-family:Verdana;
+	font-size:14px;
+	color:#f37d01;
+	float:left;
+	line-height:22px;
+}
+
+.transet_lable_content
+{
+	width:870px !important;
+	height:555px !important;
+	float:left;
+	text-align:justify;
+	font-family:Verdana;
+	font-size:14px;
+	color:#464646;
+	padding:5px;
+	overflow:auto;
+	resize:none;
+	border:none;
+	background-color:#fdfdfd;
+}
+
+.browse_btn
+{
+	filter: alpha(opacity=0);
+	opacity: 0;
+	width: 20px;
+	
+	cursor: pointer !important;
+}
+
+.content_txtarea
+{
+	width: 610px;
+	height: 325px;
+	margin: 30px;
+	background-color: #f3f3f3;
+	border: 1px solid #A5B7BB;
+	resize: none;
+	padding: 10px;
+}
+
+.add_content_outline 
+{
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	z-index: 101;
+	width: 700px !important;
+	height: 500px;
+	margin: -250px 0 0 -350px !important;
+	border-radius: 0px !important;
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-bottom: 20px;
+}
