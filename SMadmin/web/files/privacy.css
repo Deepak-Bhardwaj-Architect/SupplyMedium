@@ -1,0 +1,14 @@
+.termhead
+{
+	font-size:18px;
+	font-weight:bold;
+	font-family:Verdana;
+	color:#464646;
+}
+.term_paraalign
+{
+	font-size:14px;
+	font-family:Verdana;
+	color:#464646;
+	text-align:justify;
+}
