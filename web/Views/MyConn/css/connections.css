@@ -1,0 +1,475 @@
+@CHARSET "ISO-8859-1";
+
+body
+{
+	margin:0px;
+}
+
+
+.pagetitlecontainer
+{
+	float:left;
+	width:100%
+}
+
+.pagetitle
+{
+	color:#f37d01;
+	font-family:verdana;
+	font-size:18px;
+	text-align:left;
+	height:40px;
+	width:992px;
+	margin-left:auto;
+	margin-right:auto;
+	line-height:40px;
+	padding-left:10px;
+	text-shadow:0px 2px #fff;
+}
+
+
+
+.content
+{
+	width:1002px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.globalsearch
+{
+	width:1002px;
+	height:40px;
+	background-color:#c8c8c8;
+	float:left;
+}
+
+.searchtext
+{
+	width: 982px;
+	height: 30px;
+	float: left;
+	margin-left: 5px;
+	margin-top: 5px;
+	border: none;
+	outline: none;
+	padding-left: 10px;
+	font-family: Verdana;
+	font-size: 14px;
+}
+
+/*Tab*/
+
+.containertab
+{
+	width:1002px;
+	height:42px;
+	float:left;
+}
+
+.graytab
+{
+	width:148px;
+	height:20px;
+	background-color:#858585;
+	border:1px solid #c8c8c8;
+	float:left;
+	margin-top:6px;
+	font-family:Verdana;
+	font-size:14px;
+	color:#fff;
+	text-align:center;
+	padding-top:2px;
+	cursor:pointer;
+}
+
+.orangetab
+{
+	width:148px;
+	height:22px;
+	background-color:#de7b13;
+	float:left;
+	margin-top:6px;
+	font-family:Verdana;
+	font-size:14px;
+	color:#fff;
+	text-align:center;
+	padding-top:2px;
+	cursor:pointer;
+}
+
+.orangestrip
+{
+	width:1002px;
+	height:12px;
+	background-color:#de7b13;
+	float:left;
+}
+
+/*Connections Search*/
+
+.connectionsearchcontainer
+{
+	width:1000px;
+	height:79px;
+	border:1px solid #c8c8c8;
+	border-top:none;
+	background-color:#fff;
+	float:left;
+}
+
+.searchlabel
+{
+	width:50px;
+	height:34px;
+	font-family:Verdana;
+	font-size:14px;
+	color:#464646;
+	float:left;
+	margin-left:140px;
+	margin-top:30px;
+}
+
+.consearchcont
+{
+	width:610px;
+	height:34px;
+	background-color:#c8c8c8;
+	margin-left:10px;
+	float:left;
+	margin-top:22px;
+}
+
+.connectionsearch
+{
+	width:595px;
+	height:24px;
+	border:none;
+	float:left;
+	font-family:Verdana;
+	font-size:12px;
+	color:#464646;
+	margin-left:5px;
+	margin-top:5px;
+	padding-left:5px;
+	outline:none;
+	
+}
+
+/*Content*/
+
+.contentbg
+{
+	width:1000px;
+	height:auto;
+	border-left:1px solid #c8c8c8;
+	border-right:1px solid #c8c8c8;
+	border-top:1px solid #c8c8c8;
+	background-color:#fff;
+	float:left;
+	min-height:650px;
+}
+
+/*Content Left*/
+
+.content_left
+{
+	width:309px;
+	height:650px;
+	float:left;
+	overflow:auto;
+	overflow-x:hidden;
+}
+
+.listcontainer
+{
+	width:309px;
+	height:60px;
+	float:left;
+	border-bottom:1px solid #c8c8c8;
+	cursor:pointer;
+	position:relative;
+}
+
+.listcontainer_selected
+{
+	width:309px;
+	height:60px;
+	float:left;
+	background-color:#c8c8c8;
+	border-bottom:1px solid #c8c8c8;
+	cursor:pointer;
+	position:relative;
+}
+
+.listcontainer:hover
+{
+	background-color:#dae5e8;
+	border-bottom:1px solid #c8c8c8;
+}
+	
+
+.img_right
+{
+	width:50px;
+	height:50px;
+	margin-left:20px;
+	margin-top:5px;
+	float:left;
+}
+
+.listimg
+{
+	max-width:46px;
+	max-height:46px;
+	margin-left:2px;
+	margin-top:2px;
+}
+
+.list_right
+{
+	width:220px;
+	height:55px;
+	margin-left:10px;
+	margin-top:5px;
+	float:left;
+}
+
+.name
+{
+	width: 200px;
+	height: 16px;
+	float: left;
+	font-family: Verdana;
+	font-size: 13px;
+	color: #282828;
+	font-weight: 600;
+	overflow: hidden;
+	word-wrap: normal;
+	text-align: justify;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.cont
+{
+	width:200px;
+	height:15px;
+	float:left;
+	font-family:verdana;
+	font-size:12px;
+	color:#282828;
+	margin-top:2px;
+	overflow:hidden;
+	word-wrap:normal;
+	text-align:justify;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+
+.listseperator
+{
+	width:300px;
+	height:1px;
+	background-color:#c8c8c8;
+	float:left;
+}
+
+/*Content Right*/
+
+.content_right
+{
+	width:689px;
+	height:auto;
+	min-height:650px;
+	float:right;
+	border-left:1px solid #c8c8c8;
+}
+
+.detailcontainer
+{
+	width:690px;
+	height:auto;
+	float:left;
+}
+
+.conleftcontainer
+{
+	width:490px;
+	float:left;
+	margin-top:40px;
+}
+
+.lablecontainer
+{
+	width:420px;
+	min-height:25px;
+	float:left;
+	margin-left:40px;
+	padding-top:15px;
+}
+.detlable
+{
+	width:110px;
+	font-family:Verdana;
+	font-size:12px;
+	color:#464646;
+	float:left;
+}
+
+.valuelable
+{
+	width:310px;
+	font-family:Verdana;
+	font-size:12px;
+	color:#464646;
+	float:left;
+}
+
+.conrightcontainer
+{
+	width:170px;
+	float:left;
+	margin-top:40px;
+	margin-left:30px;
+}
+
+.con_orange_button
+{
+	width:690px;
+	height:124px;
+	float:left;
+}
+
+.orange_button
+{
+	width:170px;
+	height:36px;
+	color:#fff;
+	background-color:#de7b13;
+	font-family:Verdana;
+	font-size:14px;
+	float:left;
+	border:none;
+	outline:none;
+	margin-left:265px;
+	margin-top:40px;
+}
+
+.footer
+{
+	width:100%;
+	height:140px;
+	background-color:black;
+	float:left;
+}
+
+
+
+.delete_messages_btn
+{
+	width: 24px;
+	height: 24px;
+	background: url(../images/delete.png)no-repeat;
+	cursor: pointer;
+	border: none;
+	position: absolute;
+	left: 280px;
+	top: 5px;
+	outline:none;
+	position:absolute;
+}
+
+
+
+/*-------------------------------My Connections----------------------------*/
+
+.contbluetab
+{
+	width:1002px;
+	height:36px;
+	float:left;
+	margin-top:5px;
+}
+
+.bluetab
+{
+	width:110px;
+	height:21px;
+	background-color:#65b0c4;
+	color:#fff;
+	font-family:Verdana;
+	font-size:14px;
+	border:1px solid #c8c8c8;
+	border-bottom:none;
+	text-align:center;
+	padding-top:2px;
+	float:left;
+	cursor:pointer;
+}
+
+.lgraytab
+{
+	width:110px;
+	height:21px;
+	background-color:#ededed;
+	color:#09809c;
+	font-family:Verdana;
+	font-size:14px;
+	border:1px solid #c8c8c8;
+	border-bottom:none;
+	text-align:center;
+	padding-top:2px;
+	float:left;
+	margin-left:2px;
+	cursor:pointer;
+}
+.bluestrip
+{
+	width:1002px;
+	height:12px;
+	background-color:#64b0c4;
+	float:left;
+}
+	
+.orange_but
+{
+	width:100px;
+	height:36px;
+	color:#fff;
+	background-color:#de7b13;
+	font-family:Verdana;
+	font-size:14px;
+	float:left;
+	border:none;
+	outline:none;
+	margin-left:225px;
+	margin-top:40px;
+}
+
+.red_but
+{
+	width:100px;
+	height:36px;
+	color:#fff;
+	background-color:#de4213;
+	font-family:Verdana;
+	font-size:14px;
+	float:left;
+	border:none;
+	outline:none;
+	margin-left:40px;
+	margin-top:40px;
+}
+
+.conn_search_btn
+{
+	background:url("../images/search.png");
+	width: 70px;
+	height: 34px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	margin: 22px 0px 0px 10px !important;
+}

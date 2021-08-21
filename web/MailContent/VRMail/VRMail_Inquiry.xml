@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <smmail>
+	 <mail>
+		 <subject>Supply Medium - Vendor Registration Inquiry</subject>
+		<content>
+			$ has asked you an inquiry to proceed the vendor registration request. $
+		</content>
+	</mail>
+</smmail>
+  
+ 

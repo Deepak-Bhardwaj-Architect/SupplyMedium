@@ -1,0 +1,37 @@
+@CHARSET "ISO-8859-1"  ;
+
+#T_menu_contact_det
+{
+	padding: 10px;
+}
+
+.T_contact_title
+{
+	
+	padding: 10px 0px 0px 10px;
+}
+
+.T_contact_address
+{
+	color: #707070;
+	font-family: Segoe UI;
+	font-size: 15px;
+	padding-left:10px;
+}
+
+.T_contact_address>.company_name
+{
+	line-height: 50px;
+}
+
+.T_contact_address>.address
+{
+	line-height: 20px;
+}
+
+.T_contact_address>.inquiry
+{
+	line-height: 40px;
+}
+
+

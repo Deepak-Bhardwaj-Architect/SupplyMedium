@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <stocks>
+	 <stock>
+		 <symbol>Citibank</symbol>
+		<price>100</price>
+		 <quantity>1000</quantity>
+	</stock>
+ 	
+	<stock>
+		<symbol>Axis bank</symbol>
+		 <price>90</price>
+		 <quantity>2000</quantity>
+	</stock>
+</stocks>
+ -->
+ 
+ <smmail>
+	 <mail>
+		 <subject>Supply Medium - Vendor Registration Request</subject>
+		<content>$,  who is currently registered with Supply Medium, has requested to be your registered vendor. You can add them as your registered vendor by clicking the link below.</content>
+	</mail>
+</smmail>
+ 
