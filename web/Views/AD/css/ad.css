@@ -1,0 +1,106 @@
+@CHARSET "ISO-8859-1";
+
+.content_left
+{
+	width:650px;
+	height:400px;
+	float:left;
+	margin:50px 20px 0px 0px;
+}
+
+.label_container
+{
+	width:640px;
+	height:70px;
+	float:left;
+	margin-bottom:40px;
+	
+}
+
+.title_label
+{
+	width:640px;
+	height:20px;
+	color:#464646;
+	font-family:Verdana;
+	font-size:14px;
+	float:left;
+	line-height:24px;
+	margin-bottom:10px;
+}
+
+.text_box
+{
+	width: 620px;
+	height: 25px;
+	color: #464646;
+	border: 1px solid #a5b7bb;
+	float: left;
+	background-color: #f3f3f3;
+	outline: none;
+	font-family: "Verdana", Arial, sans-serif;
+	font-size: 12px;
+	padding: 0px 10px 0px 10px;
+	
+}
+
+.hint_label
+{
+	width:640px;
+	height:12px;
+	color:#969696;
+	font-family:Verdana;
+	font-size:12px;
+	font-style:Italic;	
+}
+
+
+.content_right
+{
+	width:290px;
+	height:300px;
+	float:left;
+	margin-top:100px;
+	
+}
+
+.pic_label
+{
+	width:100px;
+	height:20px;
+	font-family:Verdana;
+	font-size:14px;
+	color:#464646;
+}
+
+.imge
+{
+	width:200px;
+	height:150px;
+	background-color:#f3f3f3;
+	margin-top:10px;
+}
+
+.orange_button
+{
+	width:80px;
+	height:34px;
+	background-color:#f37d01;
+	font-family:Verdana;
+	font-size:14px;
+	color:white;
+	line-height:34px;
+	float:left;
+	text-align:center;
+	cursor:pointer;
+	margin-left:400px;
+	margin-top:0px;
+}
+.ad_error
+{
+	width: 583px;
+	color: red;
+	font-family: Verdana;
+	font-size: 11px;
+	line-height: 25px;
+}

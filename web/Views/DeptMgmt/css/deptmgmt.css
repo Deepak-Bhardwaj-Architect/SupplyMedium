@@ -1,0 +1,349 @@
+@CHARSET "UTF-8";
+
+.deptmgmtbtns
+{
+	float:left;
+	width:220px;
+	height:30px;
+}
+
+.deptlistsearch
+{
+	width:243px;
+	float:left;
+	height:30px;
+	align:right;
+}
+
+.deptlist
+{
+	width:auto;
+	height:auto;
+	float:left;
+	
+	/*background-color:yellow;*/
+}
+.deptlisthead
+{
+	width:455px;
+}
+.deptlistbox
+{
+	width:auto;
+	float:left;
+}
+.deptlistsel
+{
+	width:462px;
+}
+.groupboxhead
+{
+	width:203px;
+	float:left;
+}
+
+
+.managefolder
+{
+	float:right;
+	height:30px;
+}
+
+
+.existusersel
+{
+	width:210px;
+}
+.deptusersel
+{
+	width:210px;
+}
+
+
+.existgroupsel
+{
+	width:210px;
+}
+.pregroupsel
+{
+	width:210px;
+}
+.deptfoldersel
+{
+	width:210px;
+}
+.existfoldersel
+{
+	width:210px;
+}
+
+.deptgroupbox
+{
+	width:210px;
+	float:left;
+}
+
+.addremove
+{
+	width:46px;
+	height:100px;
+	float:left;
+	padding-top:120px;
+}
+
+.gap
+{
+	width:30px;
+	height:160px;
+	float:left;
+}
+
+.addbtn
+{
+	width:22px;
+	height:22px;
+	margin-left:12px;
+	margin-bottom:10px;
+	background:url("../images/add.png");
+	border:0px;
+	cursor:pointer;
+}
+
+.removebtn
+{
+	width:22px;
+	height:22px;
+	margin-left:12px;
+	background:url("../images/remove.png");
+	border:0px;
+	cursor:pointer;
+}
+
+
+.deptassign
+{
+	height:auto;
+	width:100%;
+	float:left;
+	/*background-color:red;*/
+	
+}
+
+.deptpriv
+{
+	height:225px;
+	width:960px;
+	float:left;
+	
+	/*background-color:green;*/
+	
+}
+
+.privfieldset
+{
+	/*border:1px solid #0a8fad;
+	background-color:white;*/
+	font-family:Verdana;
+	font-size:11px;
+	height:auto;
+	box-shadow: 0px 2px 2px #c8c8c8;
+}
+
+.prilbl
+{
+	padding-top:5px;
+	padding-left:10px;
+	line-height:18px;
+}
+
+legend
+{
+	font-family:Verdana;
+	font-size:15px;
+	margin-left:10px;
+	margin-bottom:10px;
+	color:#078CAA;
+}
+
+.listitem
+{
+	height:23px;
+	margin-left:10px;
+}
+
+.checkbox
+{
+	width: 15px;
+	height: 15px;
+	padding-top: 10px;
+	vertical-align: middle;
+	position: relative;
+	margin-top: 2px;
+	border: 1px solid #f1f1f1;
+}
+
+.deptupt
+{
+	height:35px;
+	padding-left:435px;
+	float:left;
+	/*background-color:white;*/
+}
+
+
+
+.test
+{
+	 margin-top:7px;
+  	 margin-bottom:7px;
+  	 background-color:#6e8c93 !important;
+  	 color:white;
+}
+
+.assignhead
+{
+	width:300px;
+	height:20px;
+	color:#078caa;
+	font-family:Verdana;
+	font-size:15px;
+	text-align:left;
+	float:left;
+}
+
+.headings
+{
+	width:100%;
+	height:35px;
+	float:left;
+}
+
+#deptmgmterr
+{
+	margin:5px 30px 5px 0px;
+}
+
+#userassignerr
+{
+	margin:5px 0px 5px 0px;
+}
+
+#groupassignerr
+{
+	margin:5px 30px 5px 0px;
+}
+
+#folderassignerr
+{
+	margin:5px 0px 5px 0px;
+}
+
+#deptprierr
+{
+	margin:5px 0px 5px 0px;
+	width:100%;
+	text-align:center
+}
+
+.depterror
+{
+	color:red;
+	font-family:Verdana;
+	font-size:11px;
+	width:460px;
+	min-height:15px;
+	height:auto;
+	float:left;
+}
+
+/*******************************************************/
+
+.new_dept_btn
+{
+	width:60px;
+	height:24px;
+	line-height:24px;
+}
+
+.edit_dept_btn
+{
+	width:65px;
+	height:24px;
+	line-height:24px;
+}
+
+.del_dept_btn
+{
+	width:60px;
+	height:24px;
+	line-height:24px;
+}
+
+.delbtn56
+{
+	width:60px;
+	height:24px;
+	line-height:24px;
+	
+}
+
+.new_fol_btn
+{
+	width:90px;
+	height:24px;
+	line-height:24px;
+}
+
+.del_fol_btn
+{
+	width:95px;
+	height:24px;
+	line-height:24px;
+}
+
+.ctrlheading
+{
+	height:30px;
+	font-family:Verdana;
+	font-size:13px;
+	background-color:#f5f5f5;
+	border-left:1px solid #c8c8c8;
+	border-right:1px solid #c8c8c8;
+	border-top:1px solid #c8c8c8;
+	color:#282828;
+	line-height:30px;
+	padding-left:5px;
+}
+
+.searchdept
+{
+	float:right;
+	width:158px;
+	height:23px;
+	padding-left:5px;
+	padding-right:30px;
+	background:url('../images/search_bar.png');
+	border:0px;
+}
+.searchdept:focus
+{
+	outline:none;
+}
+
+.listbox
+{
+	background-color:white;
+	border:1px solid #c8c8c8;
+	color:#282828;
+	line-height:30px;
+	font-family:Verdana;
+	font-size:13px;
+	height:280px;
+	padding-left:5px;
+
+}
+
+.listbox:focus
+{
+	outline:none;
+}

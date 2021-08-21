@@ -1,0 +1,177 @@
+@CHARSET "UTF-8";
+body
+{
+	margin:0px;
+}
+
+.header
+{
+	width:100%;
+	background-color:#fff;
+}
+
+.headercontent
+{
+	height:120px;
+	width:1024px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+}
+
+.header_right
+{
+	width: 400px;
+	float: right;
+	padding-right:30px;
+	position:relative;
+}
+
+.header_left
+{
+	width: 550px;
+	height:90px;
+	float: left;
+	
+}
+
+.userdetails
+{
+	float: right;
+	width:400px;
+	height: 60px;
+}
+
+.header_links_container
+{
+	float: right;
+	width: 400px;
+	height: 30px;
+	margin-top: 30px;
+	
+}
+
+.header_link
+{
+	float:right;
+	color:#22849F;
+	font-family:Verdana;
+	font-size:12px;
+}
+
+.userimage
+{
+	float:right;
+	max-width:20px;
+	max-height:20px;
+	margin-top:37px;
+	padding-right:10px;
+	
+}
+
+.username
+{
+	float:right;
+	min-width:100px;
+	max-width:500px;
+	margin-top:40px;
+	font-family:Verdana;
+	font-size:12px;
+	
+	
+	 white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    padding-right:10px;
+	
+	
+}
+
+.notification
+{
+	float:right;
+	width:50px;
+	height:20px;
+	width:20px;
+	margin-top:37px;
+	background:url('../images/globe.png');
+	cursor: pointer;
+	
+}
+
+.acc_menu
+{
+	float:right;
+	width:70px;
+	margin-top:40px;
+	padding-left:10px;
+	font-family:Verdana;
+	font-size:12px;
+}
+
+.acc_menu_content
+{
+	width: 225px;
+	height: 82px;
+	display: block;
+	float: right;
+	position: absolute;
+	top: 56px;
+	left: 181px;
+	z-index: 100000;
+	background: url("../images/acc_set_popup.png");
+}
+
+.acc_menu_item
+{
+	float: left;
+	width: 195px;
+	height: 27px;
+	font-family: Verdana;
+	font-size: 12px;
+	line-height: 27px;
+	padding-left: 10px;
+	margin-left: 10px;
+	color:black;
+}
+
+.acc_menu_item:hover
+{
+	background-color:#09809c;
+	color:white;
+}
+
+.notification_badge
+{
+	position: absolute;
+	width: auto;
+	min-width: 24px;
+	height: 16px;
+	line-height: 15px;
+	background-color: #e04c4c;
+	color: white;
+	top: 24px;
+	left: 307px;
+	text-align: center;
+	border-radius: 10px;
+	font-family: Verdana;
+	font-size: 13px;
+	cursor: pointer;
+	border: 2px solid #e3e3e3;
+}
+.company_label
+{
+	height:90px;
+	width:440px;
+	color:#5a5a5a;
+	font-family:Helvetica neue;
+	font-weight:bold;
+	font-size:24px;
+	float:left;
+	line-height:120px;
+	padding-left:20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+ <smmail>
+	 <mail>
+		 <subject>Supply Medium - Vendor Registration Rejected</subject>
+		<content>$ has rejected your vendor registration request.</content>
+	</mail>
+</smmail>
+ 
