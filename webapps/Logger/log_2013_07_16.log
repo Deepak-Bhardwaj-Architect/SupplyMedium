@@ -1,0 +1,6 @@
+16-07-2013 19:25:47:071	 DBConnection  Count : 1
+16-07-2013 19:25:47:297	Info::StartupUtil:contextInitialized-Application started
+16-07-2013 19:25:47:344	Exception::PricingOptionTable.getMaxSpace( )  - com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown column 'disk_quota' in 'field list'
+16-07-2013 19:26:16:412	 DBConnection  Count : 1
+16-07-2013 19:26:16:617	Info::StartupUtil:contextInitialized-Application started
+16-07-2013 19:26:16:650	Exception::PricingOptionTable.getMaxSpace( )  - com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown column 'disk_quota' in 'field list'

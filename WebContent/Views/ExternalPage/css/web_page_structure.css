@@ -1,0 +1,81 @@
+@CHARSET "ISO-8859-1" @Date Apr 14, 2013 @Author Anbu ;
+
+
+#web_page_structure label
+{
+	padding-left:25px;
+	line-height: 26px;
+	font-weight: bold;
+}
+
+#web_page_structure
+{
+	padding-top: 26px;
+}
+
+#web_page_structure
+{
+	margin: 10px;
+}
+
+#web_page_structure li
+{
+	margin:13px 0px 13px 96px;
+}
+/* Custom Check box */
+
+/* Check box Normal */
+#web_page_structure input[type=checkbox] 
+{
+	opacity: 0;
+	filter: alpha(opacity = 0);
+	position: absolute;
+	padding: 0 0 0 0;
+	width: 26px;
+	height: 26px;
+	margin: 0 0 0 0;
+	float: left;
+	cursor: default;
+}
+
+/* Check box Container */
+#web_page_structure .checkContainer 
+{
+	float: left;
+	width: 26px;
+	height: 26px;
+}
+
+/* Check box Custom Image*/
+#web_page_structure input[type=checkbox]+div 
+{
+	background: url('../images/Checkbox.png');
+	width: 26px;
+	height: 26px;
+	line-height: 26px;
+}
+
+/* Check box Checked Status */
+#web_page_structure input[type=checkbox]:checked+div 
+{
+	background-position: 0px 24px;
+}
+
+.checkbox_atleast
+{
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 300px;
+	background: url("../images/checkbox_atleast.png") no-repeat;
+	height: 120px;
+	line-height: 110px;
+	padding-left: 60px;
+	
+}
+
+
+.btn_webstructure_container
+{
+	margin-top: 150px;
+	margin-left: 367px;
+}

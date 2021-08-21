@@ -1,0 +1,137 @@
+@CHARSET "ISO-8859-1";
+
+.popuplayout {
+	height: 380px;
+	width: 550px !important;
+	position: fixed;
+	top: 30%;
+	left: 35%;
+}
+
+.popupcontent {
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.div_row {
+	height: 30px;
+	margin: 5px 0px 5px 25px;
+	line-height: 12px;
+}
+
+.popup_label {
+	float: left;
+	width: 100px;
+	line-height: 27px;
+	font-size: 12px;
+	font-family: Verdana;
+	vertical-align: middle;
+}
+
+#ProductCatlogForm label.error {
+	width: 270px;
+	color: red;
+	padding-left: 10px;
+	font-size: 11px;
+	font-family: Verdana;
+	line-height: 39px;
+	margin: 0px;
+	float: none;
+}
+
+/* quantity units select box */
+.quan_units
+{
+	width: 45px;
+	height: 123px;
+	border: 1px solid #a5b7bb;
+	float: right;
+	position: absolute;
+	left: 427px;
+	top: 27px;
+	cursor: pointer;
+	z-index:10098;
+	overflow:auto;
+}
+.quan_item
+{
+	height: 15px;
+	background-color: white;
+	line-height: 15px;
+	text-align: center;
+	font-family: Verdana;
+	font-size: 10px;
+	
+}
+
+.quan_item:hover
+{
+	background-color:#3a95a7;
+	color:white;
+}
+
+.quantity_unit
+{
+	width:30px;
+	height:27px;
+	margin-left:2px;
+	background-color:#4191a9;
+	float:left;
+	margin-right:20px;
+	color:white;
+	text-align:center;
+	line-height:27px;
+	cursor:pointer;
+}
+
+/* currency units select box */
+
+.currency_list
+{
+	width: 45px;
+	height: 123px;
+	border: 1px solid #a5b7bb;
+	float: right;
+	position: absolute;
+	left: 719px;
+	top: 27px;
+	cursor: pointer;
+	z-index:10023;
+	overflow:auto;
+	
+}
+
+.currency_name
+{
+	height: 15px;
+	background-color: white;
+	line-height: 15px;
+	text-align: center;
+	font-family: Verdana;
+	font-size: 10px;
+	
+}
+
+.currency_name:hover
+{
+	background-color:#3a95a7;
+	color:white;
+}
+
+.currency
+{
+	width:30px;
+	height:27px;
+	margin-left:2px;
+	background-color:#4191a9;
+	float:left;
+	color:white;
+	text-align:center;
+	line-height:27px;
+	cursor:pointer;
+	font-family:Verdana;
+	font-size:11px;
+}
+#ProductCatlogFormAddWindow label.error {
+  display: none !important;
+}

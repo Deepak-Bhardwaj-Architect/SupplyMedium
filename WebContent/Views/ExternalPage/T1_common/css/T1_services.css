@@ -1,0 +1,53 @@
+@CHARSET "ISO-8859-1" @Date Apr 19, 2013 @Author Anbu ;
+
+.T_service_title
+{
+	line-height: 50px;
+	line-height: 60px;
+	padding-left: 10px;
+}
+
+.T_video_container
+{
+	position: relative;
+	float: none;
+	overflow: auto;
+}
+
+.T_video_container li.video
+{
+	float: left;
+	width: 270px;
+	height: 170px;
+}
+
+.T_video_container li.videodesc
+{
+	float: left;
+	width: 202px;
+	height: 170px;
+	overflow: scroll;
+	overflow-y:auto;
+	overflow-x: hidden;
+}
+
+.T_video_container li
+{
+	margin: 5px;
+}
+
+.T_image_container>div
+{
+	min-height: 250px;
+}
+
+.T_menu_service p
+{
+	line-height: 25px;
+	padding: 10px 20px 20px 20px;
+}
+
+.videodesc p
+{
+	padding: 5px;
+}

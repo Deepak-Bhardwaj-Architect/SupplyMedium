@@ -1,0 +1,117 @@
+@CHARSET "UTF-8";
+
+
+.logincontentcontainer
+{
+	height:auto;
+	width:100%;
+	background-color:#f1f1f1;
+	padding-top:150px;
+	padding-bottom:215px;
+}
+
+.logincontent
+{
+	width:630px;
+	height:330px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#fff;
+	border : 1px solid #787878;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+
+.loading
+{
+	height:400px;
+	font-size:40px;
+	padding-top:300px;
+	text-align:center;
+}
+
+.signintitle
+{
+	height:50px;
+	background-color: #F37D01;
+	line-height:50px;
+	text-align:left;
+	padding-left:30px;
+	font-family:Verdana;
+	font-size:22px;
+	-moz-border-radius-topleft:9px;
+	-moz-border-radius-topright:9px;
+	border-top-right-radius:9px;
+	border-top-left-radius:9px;
+	border-bottom: 1px solid #787878;
+	color:#fff;
+	font-weight:500;
+}
+
+.loginleft
+{
+	width:300px;
+	padding-left:30px;
+	height:auto;
+	float:left;	
+	padding-top:20px;
+}
+
+.loginright
+{
+	width:280px;
+	float:right;
+	height:auto;
+	padding-top:40px;
+}
+
+.loginlbl
+{
+	width:270px;
+	font-family:Verdana;
+	font-size:12px;
+	margin-bottom:10px;
+	float:left;
+}
+
+.labellink
+{
+	font-size:11px;
+	margin-bottom:37px;
+	line-height:18px;
+	letter-spacing:1px
+}
+
+label.error {
+width: 300px;
+color: red;
+float: left;
+border: none;
+line-height: 15px;
+margin-left:0px;
+}
+
+.emailcontainer
+{
+	height:70px;
+}
+
+.passwordcontainer
+{
+	height:70px;
+}
+
+.remembercontainer
+{
+	height:30px;
+}
+
+.loginerr
+{
+	height: 15px;
+	line-height: 15px;
+	color: red;
+	font-size: 12px;
+	font-family: Verdana;
+}

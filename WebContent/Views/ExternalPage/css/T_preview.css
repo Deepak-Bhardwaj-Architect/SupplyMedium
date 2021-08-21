@@ -1,0 +1,116 @@
+@CHARSET "ISO-8859-1" @Date Apr 19, 2013 @Author Anbu ;
+
+.tempreview_container
+{
+	width: 690px;
+	margin:45px 0px 0px 167px;
+	border:solid 1px #c9c9c9;	
+	overflow: auto;
+}
+
+.tempreview_title
+{
+	height: 43px;
+	background: #4db7d1;	
+}
+
+.tempreview_title label
+{
+	color: white;
+	line-height: 43px;
+	font-size: 14px;
+	padding: 0px 0px 0px 10px;
+}
+
+.tempreview_list li
+{
+	margin: 35px;
+	float: left;
+	width: 150px;
+	height: 125px;
+	border: solid 2px transparent; 
+}
+
+.tempreview_list li:HOVER,.tempreview_list li.selected
+{
+	border: solid 2px #019abc;
+	-webkit-box-shadow: 0 0px 10px rgba(0,0,0,0.8);
+    -moz-box-shadow: 0 0px 10px rgba(0,0,0,0.8);
+    -ms-box-shadow: 0 0px 10px rgba(0,0,0,0.8);
+    -o-box-shadow: 0 0px 10px rgba(0,0,0,0.8);
+    box-shadow: 0 0px 10px rgba(0,0,0,0.8);
+}
+
+#btn_tempreview_preview
+{
+	float: right;
+	margin: 5px 4px 2px 0px;
+	width: 100px;
+	height: 31px;
+	padding: 0px;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: Verdana;
+	letter-spacing: 0px;
+	border-radius: 2px;
+}
+
+/* Green Button - Popup OK Button */
+.gen-btn-Green {
+	cursor: pointer;
+	border: 1px solid #005903;
+	color: #fff;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+	width: 100px;
+	height: 31px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: #006603;
+	background: -moz-linear-gradient(top,  #006603 0%, #005b01 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#006603), color-stop(100%,#005b01));
+	background: -webkit-linear-gradient(top,  #006603 0%,#005b01 100%);
+	background: -o-linear-gradient(top,  #006603 0%,#005b01 100%);
+	background: -ms-linear-gradient(top,  #006603 0%,#005b01 100%);
+	background: linear-gradient(to bottom,  #006603 0%,#005b01 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006603', endColorstr='#005b01',GradientType=0 );
+
+}
+
+.gen-btn-Green:hover {
+	border: 1px solid #003802;
+	color: #fff;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	background: #009302;
+	background: -moz-linear-gradient(top,  #009302 0%, #005b01 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#009302), color-stop(100%,#005b01));
+	background: -webkit-linear-gradient(top,  #009302 0%,#005b01 100%);
+	background: -o-linear-gradient(top,  #009302 0%,#005b01 100%);
+	background: -ms-linear-gradient(top,  #009302 0%,#005b01 100%);
+	background: linear-gradient(to bottom,  #009302 0%,#005b01 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009302', endColorstr='#005b01',GradientType=0 );
+
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	-ms-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	-o-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.gen-btn-Green:active {
+	border: 1px solid #011f02;
+	
+	background: #005b01;
+	background: -moz-linear-gradient(top,  #005b01 0%, #005100 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#005b01), color-stop(100%,#005100));
+	background: -webkit-linear-gradient(top,  #005b01 0%,#005100 100%);
+	background: -o-linear-gradient(top,  #005b01 0%,#005100 100%);
+	background: -ms-linear-gradient(top,  #005b01 0%,#005100 100%);
+	background: linear-gradient(to bottom,  #005b01 0%,#005100 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005b01', endColorstr='#005100',GradientType=0 );
+
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+	color: #fff
+}

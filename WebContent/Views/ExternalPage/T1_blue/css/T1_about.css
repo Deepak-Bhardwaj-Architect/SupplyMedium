@@ -1,0 +1,43 @@
+@CHARSET "ISO-8859-1" @Date Apr 19, 2013 @Author Anbu ;
+
+#T_menu_about
+{
+	padding: 10px;
+}
+
+.T_about_title
+{
+	padding: 10px 0px 0px 0px;
+}
+
+.T_about_text
+{
+	width: 970px;
+	line-height: 20px;
+	color:#6f6f6f;
+	padding-left:10px;
+	line-height:25px;
+	font-family: Segoe UI;
+	font-size: 14px;
+}
+
+.T_about_text p
+{
+	padding-top: 10px;
+}
+
+.T_about_img
+{
+	height: 400px;
+	width: 472px;
+	float: left;
+	margin:0px 0px 0px 20px;
+}
+
+.T_about_img img
+{
+	max-height: 100%;
+	max-width: 100%;
+	display: block;
+	margin: auto;
+}

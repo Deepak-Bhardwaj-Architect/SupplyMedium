@@ -1,0 +1,31 @@
+@CHARSET "ISO-8859-1" @Date Apr 19, 2013 @Author Anbu ;
+
+.T_content_container
+{
+	position: relative;
+	font-family: "Segoe UI",sans-serif;
+	width: 1010px;
+	font-size: 14px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 650px;
+	background: #fafafa;
+	z-index: 0;
+	overflow: auto;
+}
+
+.T_banner_container
+{
+	width: 1010px;
+	margin-left: auto;
+    	margin-right: auto;	
+    
+}
+
+.T_content_container p
+{
+	text-align: justify;
+}
+
+

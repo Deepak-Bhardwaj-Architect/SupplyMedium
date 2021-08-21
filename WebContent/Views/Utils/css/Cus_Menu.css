@@ -1,0 +1,230 @@
+@CHARSET "ISO-8859-1";
+
+#menucontainer
+{
+	width:100%;
+	background-color:#f1f1f1;
+	float:left;
+	height:auto;
+}
+/* Center the Menu based on window*/
+#Menu
+{
+	width: 1009px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Menu General Settings Used for Both Main Menu and Sub Menu */
+.Gen_nav {
+	
+	text-align:center;
+    font-family:  Verdana, Tahoma;   
+	-webkit-transition: all 0.218s;
+	  -moz-transition: all 0.218s;
+	  -ms-transition: all 0.218s;
+	  -o-transition: all 0.218s;
+	  transition: all 0.218s;
+}
+
+.Gen_nav a
+{
+	color:inherit;
+	font-weight: inherit;
+}
+
+.Gen_nav table
+{
+	width: 100%;
+}
+
+.Gen_nav 
+{
+	float: left;
+}
+
+/* Main Menu */
+.nav_Main
+{
+	
+	border: 1px solid #039bc2;
+	font-size: 14px;
+	background:#e2e4df url('images/Menu_BGM.png') repeat-x;
+	line-height: 42px;
+	margin: 0;
+    width:1009px;
+    height:42px;
+	color:#007382;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+    -o-border-radius: 20px;
+      /*  box-shadow: 0 1px 3px rgba(0,0,0, .4);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+    -o-box-shadow: 0 1px 3px rgba(0,0,0, .4);*/
+    cursor:pointer;
+}
+
+/* Main Menu Dispaly Settings */
+.nav_Main ul
+{
+	position: absolute;
+}
+
+/*used to get the click event for <a> any where in li*/
+.nav_Main li a
+{	display:block;
+}
+
+.nav_Main li
+{	
+	float: left;	
+}
+
+/* Use this Class to Hide the Main Menus */
+.HideMenu
+{	
+	display: none;
+}
+
+/* Use this Class to Display the Main Menus */
+.DisplayMenu
+{
+	display: block;
+}
+
+/* This Type of Menu will display all 6 Options */
+.MenuType2 li
+{
+	width:167.4px;
+}
+
+/* This Type of Menu will display all 5 and 2 Options */
+.MenuType1 li
+{
+	 width: 144.1px;
+}
+
+.MenuType3 li
+{
+	width: 201.2px;
+}
+
+/* Main Menu Selected Image */
+.navmainSelected
+{
+	background:#058aa7 url('images/Menu_Selected.png') repeat-x;
+	color: white;
+}
+
+/* Main Menu Fisrt Child Radius Change */
+.nav_Main ul li:FIRST-CHILD
+{
+	border-radius: 20px 0 0 20px;	
+	-webkit-border-radius: 20px 0 0 20px;
+	-moz-border-radius: 20px 0 0 20px;
+    -o-border-radius: 20px 0 0 20px;
+}
+
+
+/* Main Menu Second Child */
+.nav_Main_second_menu
+{
+	border-radius: 20px 0 0 20px;	
+	-webkit-border-radius: 20px 0 0 20px;
+	-moz-border-radius: 20px 0 0 20px;
+    -o-border-radius: 20px 0 0 20px;
+}
+
+
+
+/* Main Menu Last Child Radius Change - if menu item count is 7*/
+.nav_Main ul li:LAST-CHILD
+{
+	border-radius: 0px 20PX 20PX 0px;	
+	-webkit-border-radius: 0px 20PX 20PX 0px;	
+	-moz-border-radius:0px 20PX 20PX 0px;	
+    -o-border-radius: 0px 20PX 20PX 0px;	
+}
+
+/* Main Menu Last Menu Radius Change  - if menu item count is less than 7*/
+.nav_Main_last_menu
+{
+	border-radius: 0px 0PX 0PX 0px !important;	 
+	-webkit-border-radius: 0px 0PX 0PX 0px !important;	
+	-moz-border-radius: 0px 0PX 0PX 0px !important;	
+    -o-border-radius: 0px 0PX 0PX 0px !important;	
+}
+
+
+
+/* Main Menu Mouse Over */
+
+.nav_Main table tr td:HOVER
+{
+	background:#058aa7 url('images/Menu_Hover.png') repeat-x;
+	color: white;
+}
+
+/* Main Menu Separator*/
+.menu_separtor
+{
+    position: relative;
+    float: left;
+    height: 42px;
+    width: 2px;
+    background: transparent url('images/Menu_Separator.png')  no-repeat;
+    z-index: 0;
+}
+
+/* Sub Menu */
+.nav_Sub
+{
+	border: 1px solid #aaaaaa;
+	background:#e2e4df url('images/SubMenu_BGM.png') repeat-x;
+	line-height: 23px;
+	font-size: 12px;
+	margin: 1px 0px 0px 18px;
+    width:974px;
+    height:23px;
+	color:black;
+	cursor:pointer;
+}
+
+
+
+/* Sub Menu Selected */
+.navsubSelected
+{
+	background:#058aa7 url('images/Submenu_Selected.png') repeat-x;
+	color: white;
+}
+
+/* Sub Menu Separator */
+.Sub_menu_separtor
+{
+    position: relative;
+    float: left;
+    height: 21px;
+    width: 2px;
+    background: transparent url('images/Submenu_Separator.png') no-repeat;
+    z-index: 0;
+}
+
+/* Sub Menu Positioning */
+.nav_Sub li
+{	float: left;
+	width: 131px;
+}
+/*used to get the click event for <a> any where in li*/
+.nav_Sub li a
+{	display:block;
+}
+
+.nav_Sub ul
+{
+	position: absolute;
+	display: none;
+}
+

@@ -1,0 +1,162 @@
+@CHARSET "ISO-8859-1" @Date Apr 19, 2013 @Author Anbu ;
+
+.T_hading_Title
+{
+	color:#14719d;
+	font-size: 18px;
+}
+
+#T_container
+{
+	background: #95b806 url('../images/T1_green_bgm.png');
+}
+
+.T_banner
+{
+	background: #577302 url('../images/T1_bannerbgm.png');
+	height: 80px;
+}
+
+.T_company_logo
+{
+	float: left;
+	line-height: 80px;
+	color: white;
+	font-size: 50px;	
+}
+
+.T_menu
+{
+	float: right;
+	margin: 24px 0px 0px 0px;
+	font-family:"Segoe UI";
+	font-size:15px;
+}
+
+.T_menu li
+{
+	float: left;
+	color: white;
+	width: 82px;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 15px;
+}
+
+.T_menu li:HOVER
+{
+	background: rgba(0, 0, 0, 0.18);
+}
+
+.T_menu li.selected
+{
+	background: #dee3cf;
+	color:#577302;	
+}
+
+.T_copyrights
+{
+	background: #577302 url('../images/T1_green_bannerbgm.png');
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	color: white;
+	font-family:"Segoe UI";
+	font-size:15px;
+}
+
+.T_banner a
+{
+	color: inherit;
+	cursor: pointer;
+	padding: 5px;
+}
+
+/* Contact Text Input  */
+
+.text_inputbox 
+{
+	border:solid 2px #93a34a;
+	margin:5px 0px 5px 10px;
+	width: 270px;
+	font-size: 14px;
+	font-family: Segoe UI;
+	padding: 5px;
+	-moz-box-shadow: inset 0 0 5px #feffb5;
+	-webkit-box-shadow: inset 0 0 5px #feffb5;
+	box-shadow: inset 0 0 5px #feffb5;
+}
+
+#btn_contact_clear,#btn_contact_submit
+{
+	width: 60px;
+	height: 35px;
+	padding: 0px;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: Segoe UI;
+	letter-spacing: 0px;
+	border-radius: 5px;	
+}
+
+/* Green Button  */
+.gen-btn-Green {
+	cursor: pointer;
+	border: 1px solid #749B00;
+	color: #fff;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+	width: 100px;
+	height: 31px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+background: #81ac00;
+background: -moz-linear-gradient(top,  #81ac00 0%, #709600 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#81ac00), color-stop(100%,#709600));
+background: -webkit-linear-gradient(top,  #81ac00 0%,#709600 100%);
+background: -o-linear-gradient(top,  #81ac00 0%,#709600 100%);
+background: -ms-linear-gradient(top,  #81ac00 0%,#709600 100%);
+background: linear-gradient(to bottom,  #81ac00 0%,#709600 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#81ac00', endColorstr='#709600',GradientType=0 );
+
+}
+
+.gen-btn-Green:hover {
+	border: 1px solid #003802;
+	color: #fff;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+background: #aae200;
+background: -moz-linear-gradient(top,  #aae200 0%, #709600 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#aae200), color-stop(100%,#709600));
+background: -webkit-linear-gradient(top,  #aae200 0%,#709600 100%);
+background: -o-linear-gradient(top,  #aae200 0%,#709600 100%);
+background: -ms-linear-gradient(top,  #aae200 0%,#709600 100%);
+background: linear-gradient(to bottom,  #aae200 0%,#709600 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aae200', endColorstr='#709600',GradientType=0 );
+
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	-ms-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	-o-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.gen-btn-Green:active {
+	border: 1px solid #011f02;
+	
+background: #698c00;
+background: -moz-linear-gradient(top,  #698c00 0%, #6d9100 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#698c00), color-stop(100%,#6d9100));
+background: -webkit-linear-gradient(top,  #698c00 0%,#6d9100 100%);
+background: -o-linear-gradient(top,  #698c00 0%,#6d9100 100%);
+background: -ms-linear-gradient(top,  #698c00 0%,#6d9100 100%);
+background: linear-gradient(to bottom,  #698c00 0%,#6d9100 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#698c00', endColorstr='#6d9100',GradientType=0 );
+
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+	color: #fff
+}
