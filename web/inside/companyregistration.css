@@ -1,0 +1,84 @@
+.stepno {
+	height: 45px; line-height: 45px; font-family: Verdana; font-size: 15px;
+}
+.leftcontent {
+	width: 470px; height: auto; margin-top: 20px; margin-left: 42px; float: left;
+}
+.rightcontent {
+	width: 465px; height: auto; margin-top: 20px; margin-left: 30px; float: right;
+}
+#steps {
+	width: 305px; height: 80px; padding-top: 20px; margin-right: auto; margin-left: auto;
+}
+.stepseparator {
+	width: 55px; height: 2px; margin-top: 20px; margin-right: 5px; margin-left: 5px; float: left; background-color: rgb(200, 200, 200);
+}
+.stepprocess {
+	background: url("step_process_circle.png") no-repeat; width: 45px; height: 45px; text-align: center; color: rgb(255, 255, 255); line-height: 20px; float: left;
+}
+.stepnext {
+	background: url("step_next_circle.png") no-repeat; width: 45px; height: 45px; text-align: center; color: rgb(0, 125, 155); line-height: 20px; float: left;
+}
+.stepcompleted {
+	background: url("step_completed_circle.png") no-repeat; width: 45px; height: 45px; text-align: center; color: rgb(255, 255, 255); line-height: 20px; float: left;
+}
+.stepprocesstext {
+	width: 88px; text-align: center; color: rgb(244, 125, 1); float: left;
+}
+.stepnexttext {
+	width: 88px; text-align: center; color: rgb(76, 182, 207); float: left;
+}
+.stepcompletedtext {
+	width: 88px; text-align: center; color: rgb(76, 182, 207); float: left;
+}
+.addaddress {
+	border: 0px currentColor; width: 22px; height: 21px; margin-top: 5px; cursor: pointer; background-image: url("add_addr.png"); background-color: rgb(255, 255, 255);
+}
+.removeaddress {
+	border: 0px currentColor; width: 22px; height: 21px; margin-top: 40px; margin-left: 5px; float: left; background-image: url("remove_addr.png"); background-color: rgb(255, 255, 255);
+}
+.regnfieldset {
+	border: 1px solid rgb(165, 183, 187); width: 165px; height: 70px; float: left; background-color: rgb(243, 243, 243);
+}
+.regnaddrfieldset {
+	padding: 0px; border: 1px solid rgb(165, 183, 187); width: 165px; height: 70px; float: left; background-color: rgb(243, 243, 243);
+}
+.addrleft {
+	width: 140px; height: 50px; float: left;
+}
+.addrdetail {
+	height: 100px;
+}
+.addrright {
+	width: 235px; margin-right: 30px; float: right;
+}
+.addrlbl {
+	border: currentColor; height: 100px; max-width: 165px; background-color: rgb(243, 243, 243); resize: none;
+}
+.radiobtnlbl {
+	font-family: Verdana; font-size: 12px; vertical-align: middle;
+}
+.prev-next {
+	margin: 20px auto; width: 500px; height: 50px; float: left;
+}
+.prev {
+	width: 83px; text-decoration: none !important; margin-left: 70px; float: left; cursor: default;
+}
+.next {
+	width: 83px; text-decoration: none !important; margin-left: 70px; float: left; cursor: default;
+}
+.fileupload_err {
+	border: currentColor; width: 270px; color: red; line-height: 15px; font-family: Verdana; font-size: 11px; margin-left: 200px; float: left;
+}
+#canBtnDiv {
+	left: 330px; top: 115px; width: 100px; position: relative;
+}
+.logo_file_container {
+	background: url("logo_upload.png") no-repeat; width: 80px; height: 20px; margin-top: 3px; float: left; cursor: pointer !important;
+}
+.logofile {
+	/*width: 80px; filter: alpha(opacity=0); cursor: pointer !important; opacity: 0;*/
+}
+.logfilename_lbl {
+	width: 135px; line-height: 25px; overflow: hidden; padding-left: 5px; float: left; white-space: nowrap; text-overflow: ellipsis;
+}
