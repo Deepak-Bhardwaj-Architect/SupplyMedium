@@ -1,0 +1,9 @@
+.footer {
+	width: 100%; float: left; background-image: url("footer_texture.png");
+}
+.footercontent {
+	width: 1024px; height: 100px; margin-right: auto; margin-left: auto;
+}
+.copyrights {
+	height: 100px; text-align: center; color: rgb(255, 255, 255); line-height: 100px; font-family: Verdana; font-size: 18px;
+}
