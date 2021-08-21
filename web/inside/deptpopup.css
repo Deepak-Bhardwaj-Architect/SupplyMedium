@@ -1,0 +1,16 @@
+@CHARSET "ISO-8859-1";
+
+.popuplayout
+{
+	height:340px ;
+	width:550px !important;
+	position:fixed;
+	top:30%;
+	left:30%;
+}
+
+.popupcontent
+{
+	margin-top:80px;
+	margin-left:40px;
+}

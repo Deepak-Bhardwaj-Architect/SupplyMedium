@@ -1,0 +1,44 @@
+.body {
+	margin: 0px;
+}
+.page {
+	width: 100%; height: auto; float: left; background-color: rgb(241, 241, 241);
+}
+.contentcontainer {
+	width: 1002px; height: auto; font-family: "Lucida Sans Unicode", Times, serif; font-size: 12px; margin-right: auto; margin-left: auto; min-height: 720px;
+}
+.content {
+	padding: 20px; border: 1px solid rgb(200, 200, 200); width: 962px; float: left; background-color: rgb(255, 255, 255);
+}
+.pagetitlecontainer {
+	width: 100%; float: left; background-color: rgb(241, 241, 241);
+}
+.pagetitle {
+	width: 992px; height: 40px; text-align: left; color: rgb(243, 125, 1); line-height: 40px; padding-left: 10px; font-family: Verdana; font-size: 18px; margin-right: auto; margin-left: auto; text-shadow: 0px 2px #fff;
+}
+.ad_container {
+	top: 230px; width: 200px; height: auto; right: 0px; position: absolute;
+}
+.ad_image {
+	width: 200px; height: 150px;
+}
+
+.striphead
+{
+	width:391px;
+	height:34px;
+	background:url("gradient-strip.png") repeat-x;
+	border-bottom: 1px solid #d2d2d2;
+	float:left;
+	position:relative;
+}
+
+.stripheadtext
+{
+	font-family:Verdana;
+	font-size: 11px;
+	line-height: 34px;
+	color: #464646;
+	margin-left:5px;
+	font-weight:bold;
+}

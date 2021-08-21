@@ -1,0 +1,46 @@
+@CHARSET "ISO-8859-1";
+
+.supplier_controls
+{
+	width:700px;
+	float:left;
+	height:60px;
+	margin-left:300px;
+	margin-top:20px;
+}
+
+.buyer_controls
+{
+	width:700px;
+	float:left;
+	height:60px;
+	margin-left:300px;
+	margin-top:20px;
+}
+
+.inquire_controls
+{
+	width: 550px;
+	float: left;
+	height: 60px;
+	margin-left: 355px;
+	margin-top: 20px;
+}
+
+.rfq_close
+{
+	float: left;
+    height: 60px;
+    margin-left: 420px;
+    margin-top: 20px;
+    width: 550px;
+}
+
+.rfq_update
+{
+	float: left;
+    height: 60px;
+    margin-left: 420px;
+    margin-top: 20px;
+    width: 550px;
+}
