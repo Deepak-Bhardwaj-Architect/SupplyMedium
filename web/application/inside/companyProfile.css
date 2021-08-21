@@ -1,0 +1,269 @@
+@CHARSET "ISO-8859-1";
+
+.pagetitlecontainer
+{
+	float: left;
+	width: 100%;
+	background-color: #f1f1f1;
+}
+.logofile {
+width: 186px;
+cursor: pointer !important;
+}
+/* Title  */
+.pagetitle
+{
+	color: #f37d01;
+	font-family: Verdana;
+	font-size: 18px;
+	text-align: left;
+	height: 40px;
+	width: 992px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 40px;
+	padding-left: 10px;
+	text-shadow: 0px 2px #fff;
+}
+
+/* Profile Information */
+.profileContent
+{
+	float: left;
+	width: 458px;	
+	height: auto;
+	margin: 10px 0px 0px 20px;
+}
+
+.profileContent > div,.pricingContent > div {
+	
+	height: 50px;
+}
+
+/* Separator */
+.ContenSeparator {
+	
+	float: left;
+	width: 1px;
+	height: 580px;
+	background: #d3d3d3;
+	
+}
+
+/* Pricing Plan Information */
+.pricingContent
+{
+	float: right;
+	width: 458px;
+	margin: 10px 0px 0px 20px;
+	height: auto;
+}
+
+
+
+/* Sub Heading */
+#companyProfile .Sub_Heading
+{
+	color:#008caa;
+	font-family: Verdana;
+	font-size: 16px;
+}
+
+/* Labels */
+#companyProfile .label
+{
+	width: 225px;
+}
+
+#companyProfile .pricinglable
+{
+	width: 468px;
+}
+
+#companyProfile .label, #companyProfile .pricinglable
+{
+	float: left;	
+	font-family: "Verdana", Times, serif;
+	font-size: 15px;
+	color: #282828;
+	height: 25px;
+	line-height: 30px;
+}
+
+/* Textbox Selectbox and Text area Radio Button*/
+/*#companyProfile .textbox {
+	
+	font-family: "Verdana",Arial,sans-serif;
+	border: 1px solid #A5B7BB;
+	background-color: #F3F3F3;
+	width: 170px;
+	font-size: 12px;
+	padding:0px 6px;
+	height: 25px;
+	
+}
+
+#companyProfile .selectbox {
+	
+	font-family: "Lucida Grande",Arial,sans-serif;
+	border: 1px solid #A5B7BB;
+	width: 185px;
+	font-size: 12px;
+	padding: 3px 2px 2px 6px;
+	height: 29px;
+	align: absmiddle;
+	float: left;
+	background: #F3F3F3 url('CompoDown.png') no-repeat right ;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}*/
+
+#companyProfile .textarea {
+	
+	font-family: "Verdana",Arial,sans-serif;
+	border: 1px solid #A5B7BB;
+	background-color: #F3F3F3;
+	width: 170px;
+	font-size: 12px;
+	padding:0px 6px;	
+	height:70px;
+}
+
+.radiobtn
+{
+	margin-left: 10px;
+	border: 1px solid #A5B7BB;
+}
+
+/* Address  */
+
+#companyProfile fieldset
+{
+	border: 1px solid #A5B7BB;
+	width: 175px;
+	padding: 4px 6px;
+	background-color: #F3F3F3;
+	float: left;
+	font-family:Verdana;
+	font-size:11px;
+}
+#companyProfile fieldset legend
+{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size:9px;
+}
+
+/* Address Expander */
+#addressExpander
+{
+	width: 17px;
+	height: 25px;
+	background: transparent url('address_expander.png') no-repeat;
+        display:none;
+	float: left;
+	cursor: pointer;
+	margin:5px 12px 0px 0px
+	
+}
+
+.addressContainer fieldset div
+{
+	height: 15px;
+	overflow: hidden;
+}
+
+
+
+/* Add Address and Remove Address Buttons */
+.removeaddress, .addAddress {
+	display:none;
+	width: 22px;
+	height: 21px;
+	background:white url('remove_addr.png');
+	border: 0px;
+	float: left;
+	margin: 40px 0px 0px 5px;
+	cursor: pointer;
+}
+
+.addAddress
+{
+	background-image: url('add_addr.png');
+	margin: 0px;
+}
+
+.AddressDetails
+{
+	overflow: hidden;
+	min-height:65px;
+	height:auto;
+}
+
+.addrMoreInfo
+{
+	position: absolute;
+	background: #F3F3F3;
+	margin: 18px 0px 0px 190px;
+}
+
+.ButtonContiner
+{
+	width:900px;
+	float: none;
+	text-align: center;
+	margin: 40px 0px 30px 0px;
+}
+
+/* Add Address if address list is null */
+.addAddressEmpty {
+	display:block;
+	width: 22px;
+	height: 25px;
+/*	background:white url('add_addr.png') no-repeat;*/
+	background-color:white;
+	border: 0px;
+	float: left;
+	/*margin: 5px 0px 0px -28px;*/
+	cursor: pointer;
+}
+
+/* Validation Error  */
+.profileContent label.error	
+{
+	margin: 1px 0 0 225px;
+	font-size: 100%;
+}
+
+.valuelbl
+{
+	width: 200px;
+	float: left;
+	font-size: 14px;
+	font-family: Verdana;
+	color: #f37d01;
+}
+
+.keylbl
+{
+	width: 250px;
+	float: left;
+	font-size: 14px;
+	font-family: Verdana;
+}
+.row
+{
+	width:458px!important;
+	height:50px;
+}
+.mandatory
+{
+	color: rgb(243, 125, 1);
+	font-size: 15px;
+}
+.radiobtnlbl {
+    font-size: 12px;
+    font-family: Verdana;
+    vertical-align: middle;
+}

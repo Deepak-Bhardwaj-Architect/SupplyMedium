@@ -1,0 +1,142 @@
+body {
+	margin: 0px;
+}
+.mainpage {
+	width: 100%; float: left; min-height: 720px; background-color: rgb(241, 241, 241);
+}
+.pagetitlecontainer {
+	width: 100%; float: left;
+}
+.pagetitle {
+	width: 992px; height: 40px; text-align: left; color: rgb(243, 125, 1); line-height: 40px; padding-left: 10px; font-family: verdana; font-size: 18px; margin-right: auto; margin-left: auto; text-shadow: 0px 2px #fff;
+}
+.globalsearch {
+	width: 1002px; height: 40px; float: left; background-color: rgb(200, 200, 200);
+}
+.searchtext {
+	border: currentColor; width: 984px; height: 30px; padding-left: 10px; font-family: Verdana; font-size: 14px; margin-top: 5px; margin-left: 4px; float: left;
+}
+.content {
+	padding: 0px; border: currentColor; width: 1002px !important; height: 690px !important; margin-right: auto !important; margin-left: auto !important; float: none;
+}
+.contentbg {
+	width: 1000px; border-top-color: rgb(200, 200, 200); border-right-color: rgb(200, 200, 200); border-left-color: rgb(200, 200, 200); border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid; float: left; min-height: 650px; background-color: rgb(255, 255, 255);
+}
+.content_left {
+	width: 199px; height: auto; float: left; min-height: 650px;
+}
+.content_label {
+	width: 180px; height: 34px; color: rgb(70, 70, 70); line-height: 35px; overflow: hidden; padding-left: 10px; font-family: Verdana; font-size: 14px; border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; float: left; white-space: nowrap; cursor: pointer; word-wrap: normal; text-overflow: ellipsis;
+}
+.content_label:hover {
+	color: rgb(243, 125, 1); background-color: rgb(255, 255, 255);
+}
+.content_label_sub {
+	width: 180px !important; height: 30px; color: rgb(70, 70, 70); line-height: 30px; font-family: Verdana; font-size: 14px; float: left; cursor: pointer;
+}
+.feed_text_box {
+	margin: 0px; border: 1px solid rgb(200, 200, 200); width: 720px; height: 26px; padding-left: 5px; float: left;
+}
+.watchlist_name_lbl {
+	width: 150px; overflow: hidden; float: left; white-space: nowrap; word-wrap: normal; text-overflow: ellipsis;
+}
+.content_label_sub:hover {
+	color: rgb(243, 125, 1); background-color: rgb(255, 255, 255);
+}
+.content_label_selected {
+	color: rgb(243, 125, 1) !important; 
+        /* text-decoration: underline !important;*/
+}
+.content_label_only {
+	width: 180px; height: 36px; color: rgb(70, 70, 70); line-height: 35px; overflow: hidden; padding-left: 10px; font-family: Verdana; font-size: 14px; float: left; white-space: nowrap; cursor: default; word-wrap: normal; text-overflow: ellipsis;
+}
+.content_right {
+	width: 798px; height: auto; border-left-color: rgb(200, 200, 200); border-left-width: 1px; border-left-style: solid; float: right; min-height: 650px;
+}
+.cont_container {
+	width: 800px; margin-right: 20px; margin-left: 20px;
+}
+.content_title {
+	color: rgb(70, 70, 70); padding-left: 20px; font-family: Verdana; font-size: 18px; margin-top: 20px;
+}
+.text_container {
+	width: 759px; height: 30px; margin-top: 20px; margin-left: 30px; float: left; position: relative;
+}
+.text_box {
+	border: 1px solid rgb(200, 200, 200); width: 320px; height: 30px; color: rgb(70, 70, 70); padding-left: 5px; font-family: Verdana; font-size: 14px; float: left;
+}
+.view_mem {
+	width: 200px; height: 30px; color: rgb(59, 80, 137); line-height: 30px; font-family: Verdana; font-size: 12px; margin-left: 10px; float: left; cursor: pointer;
+}
+.view_mem:hover {
+	text-decoration: underline;
+}
+.new_feed_container {
+	width: 726px; height: auto; margin-top: 20px; float: left; min-height: 100px;
+}
+.add_image {
+	margin-left: 5px; float: left; cursor: pointer;
+}
+.add_image:hover {
+	border-top-color: rgb(200, 200, 200); border-top-width: 1px; border-top-style: solid;
+}
+.post_but {
+	width: 35px; height: 20px; color: rgb(255, 255, 255); line-height: 20px; padding-left: 5px; font-family: Verdana; font-size: 12px; margin-left: 5px; float: left; cursor: pointer; background-color: rgb(243, 125, 1);
+}
+.post_but:hover {
+	border-top-color: rgb(200, 200, 200); border-top-width: 1px; border-top-style: solid;
+}
+.text_area {
+	border-width: medium 1px 1px; border-style: none solid solid; border-color: currentColor rgb(200, 200, 200) rgb(200, 200, 200); margin: 0px; padding: 5px; width: 715px; height: 52px; color: rgb(70, 70, 70); line-height: 22px; overflow: auto; font-family: Verdana; font-size: 13px; white-space: pre-wrap; word-wrap: break-word; resize: none;
+}
+.feed_container {
+	width: 720px; height: auto; margin-top: 20px; float: left;
+}
+.title_container {
+	width: 720px; height: 30px; margin-bottom: 10px; float: left;
+}
+.feed_title {
+	width: 500px; height: 30px; color: rgb(0, 117, 143); line-height: 26px; font-family: Verdana; font-size: 16px; margin-left: 30px; float: left; cursor: default;
+}
+.dat {
+	width: 180px; height: 30px; color: rgb(70, 70, 70); line-height: 28px; font-family: Verdana; font-size: 10px; margin-left: 10px; float: left;
+}
+.feed_description {
+	width: 720px; height: auto; text-align: justify; color: rgb(70, 70, 70); line-height: 26px; font-family: Verdana; font-size: 14px; margin-left: 30px; float: left;
+}
+.popuplayout {
+	margin: -170px 0px 0px -225px !important; left: 50%; top: 50%; width: 550px !important; height: 340px; position: fixed;
+}
+.popupcontent {
+	margin-top: 80px; margin-left: 40px;
+}
+.delete_watchlist_btn {
+	background: url("feed_delete_btn.png") no-repeat; margin: 2px 0px 0px 5px; border: currentColor; width: 24px; height: 24px; float: left; cursor: pointer;
+}
+.search_result {
+	top: 32px; width: 327px; height: 598px; overflow: auto; float: left; position: absolute; overflow-x: hidden;
+}
+.listcontainer {
+	border-width: medium 1px 1px; border-style: none solid solid; border-color: currentColor rgb(200, 200, 200) rgb(200, 200, 200); width: 325px; height: 60px; float: left; cursor: pointer; background-color: rgb(232, 232, 232);
+}
+.listcontainer:hover {
+	background-color: rgb(218, 229, 232);
+}
+.img_right {
+	width: 50px; height: 50px; margin-top: 5px; margin-left: 20px; float: left;
+}
+.listimg {
+	width: 46px; height: 46px; margin-top: 2px; margin-left: 2px;
+}
+.list_right {
+	width: 220px; height: 55px; margin-top: 5px; margin-left: 10px; float: left;
+}
+.name {
+	width: 200px; height: 16px; text-align: justify; color: rgb(40, 40, 40); overflow: hidden; font-family: Verdana; font-size: 13px; font-weight: 600; float: left; white-space: nowrap; word-wrap: normal; text-overflow: ellipsis;
+}
+.cont {
+	width: 200px; height: 15px; text-align: justify; color: rgb(40, 40, 40); overflow: hidden; font-family: verdana; font-size: 12px; margin-top: 2px; float: left; white-space: nowrap; word-wrap: normal; text-overflow: ellipsis;
+}
+.listseperator {
+	width: 327px; height: 1px; float: left; background-color: rgb(200, 200, 200);
+}

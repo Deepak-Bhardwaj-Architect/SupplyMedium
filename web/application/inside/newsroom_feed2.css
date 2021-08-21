@@ -1,0 +1,84 @@
+.feed_content {
+	width: 100%; height: 300px; position: relative;
+}
+.feedTitle {
+	border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(211, 211, 211) rgb(211, 211, 211) currentColor; padding: 0px 20px; width: 675px; height: 26px; font-family: Verdana; font-size: 15px; margin-left: 20px; float: left; background-color: white;
+}
+.feedTitle:focus {
+	
+}
+.feedDesc {
+	padding: 5px 20px 0px; border: 1px solid rgb(211, 211, 211); width: 675px; height: 52px; font-family: Verdana; font-size: 13px; margin-left: 20px; float: left; background-color: white; resize: none;
+}
+.feedDesc:focus {
+	
+}
+.feeds {
+	width: 750px; height: auto; margin-top: 10px; float: left; min-height: 595px; background-color: white;
+}
+.newfeed {
+	float: left;
+}
+.feed_err_lbl {
+	display:none;width: 360px; height: 20px; color: red; line-height: 20px; font-family: Verdana; font-size: 12px; margin-left: 20px; float: left;
+}
+.file_name_lbl {
+	width: 275px; height: 20px; text-align: right; color: black; line-height: 20px; padding-right: 5px; font-family: Verdana; font-size: 12px; float: left;
+}
+.feed_btns {
+	width: 70px; margin-right: 63px; float: right;
+}
+.new_feed_image_container {
+	background: url("feed_upload.png") no-repeat; width: 20px; height: 20px; float: right; cursor: pointer !important;
+}
+.new_feed_image_container :active {
+	background: url("feed_upload_active.png") no-repeat;
+}
+.new_feed_image {
+	width: 20px; filter: alpha(opacity=0); cursor: pointer !important; opacity: 0;
+}
+.post_feed_btn {
+	border-radius: 0px; width: 40px; height: 20px; line-height: 18px; font-size: 12px; margin-left: 5px; float: right; position: relative; z-index: 100; -moz-border-radius: 0px; webkit-border-radius: 0px;
+}
+.feed {
+	width: 740px; padding-left: 20px; border-bottom-color: rgb(211, 211, 211); border-bottom-width: 1px; border-bottom-style: solid; float: left;
+}
+.feed:hover {
+	background-color: rgb(234, 234, 234);
+}
+.dateDel {
+	width: 100%; height: 26px; float: left;
+}
+.publisher_details {
+	width: 100%; height: 45px; float: left;
+}
+.publisher_photo {
+	width: 40px; height: 40px; margin-right: 10px; float: left;
+}
+.publisher_name {
+	width: 430px; line-height: 40px; font-family: Verdana; font-size: 15px; float: left;
+}
+.date {
+	width: 200px; height: 24px; text-align: right; color: rgb(116, 116, 116); line-height: 24px; font-family: Verdana; font-size: 10px; float: left;
+}
+.feed_del {
+	background: url("feed_delete_btn.png") no-repeat; border: currentColor; width: 24px; height: 24px; margin-left: 5px; float: left; cursor: pointer;
+}
+.feed_head {
+	width: 95%; height: auto; text-align: left; color: rgb(0, 0, 0); font-family: Verdana; font-size: 15px; font-weight: 600; margin-bottom: 20px; float: left;
+}
+.feed_image {
+	padding-right: 10px; padding-bottom: 10px; float: left; display: block !important; cursor: pointer;
+}
+.feed_summary {
+	width: 97%; text-align: justify; color: rgb(0, 0, 0); font-family: Verdana; font-size: 13px; float: left; word-wrap: break-word;
+}
+#feed_loader {
+	width: 100%; height: 30px; float: left;
+}
+#no_more_feed {
+	width: 100%; height: 30px; text-align: center; color: rgb(0, 0, 0); line-height: 30px; font-family: Verdana; font-size: 15px; float: left;
+}
+.no_feeds {
+	left: 150px; top: 120px; width: 700px; text-align: center; line-height: 100px; font-family: Verdana; font-size: 20px; position: absolute;
+}
