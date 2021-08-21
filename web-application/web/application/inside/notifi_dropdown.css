@@ -1,0 +1,60 @@
+.mCustomScrollBox {
+ overflow: visible!important;
+}
+.notification_container {
+	left: 595px; top: 60px; width: 330px; height: 600px; position: absolute; z-index: 1000;
+}
+.arrow_box {
+	width: 0px; height: 0px; margin-left: 284px; border-right-color: transparent; border-bottom-color: rgb(210, 210, 210); border-left-color: transparent; border-right-width: 15px; border-bottom-width: 15px; border-left-width: 15px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; float: left;
+}
+.drop_box {
+	width: 430px; height: 485px; float: left; box-shadow: 0px 4px 5px rgba(0,0,0,0.5); background-color: rgb(210, 210, 210); -webkit-box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.5);
+}
+.title {
+	width: 420px; height: 40px; color: rgb(60, 60, 60); line-height: 40px; font-family: Verdana; font-size: 18px; margin-left: 10px; pointer: default;
+}
+.white_space {
+	border: 1px solid rgb(200, 200, 200); width: 408px; height: 418px; margin-left: 10px; background-color: rgb(255, 255, 255);
+}
+.see_more {
+	width: 430px; height: 25px; text-align: center; color: rgb(59, 89, 152); line-height: 24px; font-family: Verdana; font-size: 14px; cursor: pointer;
+}
+.see_more:hover {
+	text-decoration: underline;
+}
+.data_container {
+	width: 408px!important; height: 418px; overflow-y: scroll;
+}
+.user_container {
+	width: 408px; height: auto; float: left; cursor: pointer; min-height: 65px;
+}
+.user_container:hover {
+	background-color: rgb(242, 246, 247);
+}
+.no_image {
+	margin-top: 8px; margin-left: 5px; float: left; max-height: 50px; max-width: 50px;
+}
+.user_cont {
+	width: 320px; height: auto; margin-top: 5px; margin-left: 10px; float: left; min-height: 60px;
+}
+.noti_text_label {
+	width: 320px; color: rgb(51, 51, 51); line-height: 16px; font-family: Verdana; font-size: 12px; margin-top: 12px; float: left;
+}
+.noti_date {
+	width: 152px; height: 20px; color: rgb(153, 153, 153); line-height: 20px; font-family: Verdana; font-size: 12px; margin-top: 10px; float: left;
+}
+.button_container {
+	width: 130px; height: 20px; margin-top: 5px; float: right;
+}
+.acc_button {
+	border: currentColor; width: 60px; height: 20px; text-align: center; color: rgb(255, 255, 255); line-height: 18px; font-family: Verdana; font-size: 12px; float: left; cursor: pointer; background-color: rgb(30, 158, 187);
+}
+.acc_button:hover {
+	background-color: rgb(30, 158, 187);
+}
+.rej_button {
+	border: currentColor; width: 60px; height: 20px; text-align: center; color: rgb(255, 255, 255); line-height: 18px; font-family: Verdana; font-size: 12px; margin-left: 10px; float: left; cursor: pointer; background-color: rgb(245, 10, 0);
+}
+.rej_button:hover {
+	background-color: rgb(219, 9, 2);
+}

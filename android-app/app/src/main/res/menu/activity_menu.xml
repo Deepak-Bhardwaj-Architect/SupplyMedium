@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Supply Medium">
+        <menu>
+            <item
+                android:id="@+id/nav_00"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Home" />
+            <item
+                android:id="@+id/nav_01"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Post Your News Feed" />
+            <item
+                android:id="@+id/nav_02"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Notifications" />
+        </menu>
+    </item>
+    <item android:title="Vendor Management">
+        <menu>
+            <item
+                android:id="@+id/nav_03"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Search Vendor - Add" />
+            <item
+                android:id="@+id/nav_04"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Vendors List" />
+            <item
+                android:id="@+id/nav_05"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Sent Vendor Requests" />
+            <item
+                android:id="@+id/nav_06"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Received Vendor Requests" />
+        </menu>
+    </item>
+    <item android:title="Friends">
+        <menu>
+            <item
+                android:id="@+id/nav_07"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Search Friend - Add" />
+            <item
+                android:id="@+id/nav_08"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Friends List" />
+            <item
+                android:id="@+id/nav_09"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Sent Friend Requests" />
+            <item
+                android:id="@+id/nav_10"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Received Friend Requests" />
+        </menu>
+    </item>
+    <item android:title="Communication">
+        <menu>
+            <item
+                android:id="@+id/nav_11"
+                android:icon="@drawable/ic_menu_send"
+                android:title="View Messages" />
+            <item
+                android:id="@+id/nav_12"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send a Message" />
+        </menu>
+    </item>
+    <item android:title="Invitation to Join SupplyMedium">
+        <menu>
+            <item
+                android:id="@+id/nav_13"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Invite A Friend / Business" />
+        </menu>
+    </item>
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_14"
+                android:icon="@drawable/ic_menu_send"
+                android:title="My Profile" />
+            <item
+                android:id="@+id/nav_15"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Change Password" />
+            <item
+                android:id="@+id/nav_16"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

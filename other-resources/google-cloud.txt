@@ -1,0 +1,103 @@
+https://console.developers.google.com/project
+https://console.developers.google.com/project/apps~supplymedium01
+
+user email: supplymedium@gmail.com
+password: SupplyMedium!1
+
+supplymedium2@gmail.com
+SupplyMedium!1
+
+
+
+MEETING 1 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+PRICING MUST BE REDESIGN AS PER GIVEN LINK (for version 2.0) == http://www.bigcommerce.com/pricing/
+
+lokesh-login screen for registering a company - next button is not on position
+(discuss) NEXT button after adding a business category - it is in not proper alignment
+
+DONE and WORKING FINE - firstly accept vender registration - then only able to do the transactions with respective compant... - 
+(cross check it once)
+
+done-alert box must be removed from testing on add user by admin while saving a record
+
+==>> update personal details on user settings on account seeting by user
+DONE - why default address is null on user details updation page
+DILBAG - state / province (readonly default this field at user settings) can be changed by user
+
+lokesh-why first comment is looking like object document
+
+ADD-ON lokesh-alt title and name must be implement on hide/mute/spam-(version2)
+ADD-ON confirmation with you can not undo these settings-(version2)
+
+done-on corporate page must be landed to internal page of company
+
+to be discussed by SM people-internal accouncement feed must be visible on network feed to other user of same business category
+
+done- multiple select for serach like facebook advertisements
+<select>
+	<option>All (29 - REGISTERED COMPANIES)</option>
+	<option>iNDIA (NO - COMPANY/IES)</option>
+	<option>pAKISTAN (17 - USERS)</option>
+	<option>usa (12)</option>
+</select>
+MUST BE SAME LIKE FACEBOOK
+
+MEETING 2 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+POST 1.(done) page must be refreshed after like and comment
+
+POST 2.(done) same working must be for my feeds
+POST 3.(done) main in corporate
+POST 4.(done) and department page feeds and in corporate (dept feed not working)
+DILBAG PENDING VALIDATION TO CREATE/SELECT DEPARTMENT FIRST THEN POST FEEDS in DEPARTMENT PAGE ANNOUCEMENT
+REMOVE DEFAULT SELECTION OF DEPT
+
+ADD-ON (for ver 2.0) 5 .personalized folder management for user must be of user page (my feed), left panel as My Briefcase for (personalized file management)
+
+ADD-ON (for ver 2.0) 6. on main page => internal page for corporate
+same process must be here for folder and files management for public under company users
+
+DONE COMPANY 7.(done) update company profile - at multiple business category why one extra cross (x) is here
+
+DONE 8.(done) updating user setting details - why null are here
+
+USER 9.(done) while updating details of user, user registration details and fields must be on update page
+
+USER 10.(done) user settings - their must be ability for admin to specify the user type (regular/intranet)
+
+USER 11. (done)admin can add user - their must be ability for admin to specify the user type (regular/intranet)
+
+DONE CSS 12. (done) action opened list must be in bottom of action.
+
+DONE CSS 13. (done) design of like comment and action must be integrated.
+
++1-6145310013
+
+(discussed by SM people) toast effect from advertisement to all changes => buttons
+
+MEETING 3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+(dilbag) groups are not adding
+
+(dilbag) use drop down for action in posts - make it soon
+
+(dilbag) loading option at search - not on supplier (default)
+
+(dilbag) ok it is - change word send to accept in vender registration from buyer to supplier
+
+(dilbag) Admin must update company profile (address details must be there) completely - before registring as a vender (toast alert).
+
+(discuss) while generating RFQ and all of TM - outside company(supplier/buyer) email must be mandatory and their must be few more feilds company name, address, contact details are not mandatory but must be their to be filled by user and received company user must have ability to change those feilds (if wrong)
+
+LOKESH - RQF - not sending email - generate PDF file attached here with associated email address... (due to rfq.xml file is not on routed path)
+
+SUGGESTION - product tab must be here for search along with buyer/supplier/product
+SUGGESTION - RFQ confirmation for do you want to make it broadcast for multiple business categories (with add and remove feature) for network news feed broadcast.
+
+(dilbag) Session refresh for logo file path and user pic path resetting
+
+
+

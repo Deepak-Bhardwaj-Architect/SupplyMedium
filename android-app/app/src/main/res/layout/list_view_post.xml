@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:id="@+id/tbl1"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/post_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Feed Poster Name"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:layout_weight="100"/>
+
+        <TextView
+            android:id="@+id/post_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="On the Insert tab, the galleries include items that are designed to coordinate with the overall look of your document. You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks. When you create pictures, charts, or diagrams, they also coordinate with your current document look."
+            android:layout_weight="100"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_marginTop="@dimen/margin_top_btn"
+        android:layout_below="@+id/tbl1"
+        android:weightSum="2"
+        android:id="@+id/tbl2"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:id="@+id/like"
+                android:layout_width="32px"
+                android:layout_height="32px"
+                android:src="@drawable/like" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"/>
+
+            <TextView
+                android:layout_toRightOf="@+id/like"
+                android:id="@+id/post_like"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="15 Like"
+                android:layout_marginLeft="10dp"
+
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                >
+            <ImageView
+                android:id="@+id/comment"
+                android:layout_width="32px"
+                android:layout_height="32px"
+                android:src="@drawable/comment"
+                android:layout_weight="10"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"/>
+
+            <TextView
+                android:id="@+id/post_comments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/comment"
+                android:textStyle="bold"
+                android:text="9 Comment"
+                android:layout_marginLeft="10dp"
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

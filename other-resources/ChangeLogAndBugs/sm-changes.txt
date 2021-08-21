@@ -1,0 +1,11 @@
+update email, make primary
+
+address format in pdf
+
+number update and sync via sms gateway
+
+2 way auth check enable or disable
+
+email template
+
+cash on delivery

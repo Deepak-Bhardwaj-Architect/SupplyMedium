@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_top_btn"
+        android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="Supply Medium"
+        android:src="@drawable/supplymediumlogo"
+        android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/titl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textSize="10pt"
+            android:gravity="center"
+            android:layout_centerHorizontal="true" />
+      <TextView
+            android:layout_marginTop="@dimen/margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/margin_top"
+            android:text="SIGN UP AS"
+            android:textSize="8pt"
+            android:layout_centerHorizontal="true" />
+
+        <Spinner
+            android:id="@+id/sign_up_as"
+            android:layout_width="match_parent"
+            android:layout_height="60px"
+            android:paddingTop="@dimen/margin_top"
+            android:entries="@array/sign_up_as" />
+
+        <TextView
+            android:layout_marginTop="@dimen/margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/margin_top"
+            android:text="COMPANY NAME"
+            android:textSize="8pt"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:id="@+id/company_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/margin_top"
+            android:text=""
+            android:hint="Company Name"
+            android:singleLine="true"
+            android:textSize="8pt"
+            android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_marginTop="@dimen/margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/margin_top"
+                android:text="COMPANY ID"
+                android:textSize="8pt"
+                android:layout_centerHorizontal="true" />
+
+            <EditText
+                android:id="@+id/company_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/margin_top"
+                android:text=""
+                android:hint="Company Id"
+                android:singleLine="true"
+                android:textSize="8pt"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_marginTop="@dimen/margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/margin_top"
+                android:text="BUSINESS CATEGORY"
+                android:textSize="8pt"
+                android:layout_centerHorizontal="true" />
+
+            <Spinner
+                android:id="@+id/business_category"
+                android:layout_width="match_parent"
+                android:layout_height="60px"
+                android:paddingTop="@dimen/margin_top"
+                 />
+
+           <TextView
+               android:layout_marginTop="@dimen/margin"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:paddingTop="@dimen/margin_top"
+               android:text="COUNTRY"
+               android:textSize="8pt"
+               android:layout_centerHorizontal="true" />
+
+           <Spinner
+               android:id="@+id/country"
+               android:layout_width="match_parent"
+               android:layout_height="60px"
+               android:paddingTop="@dimen/margin_top"
+                />
+
+             <TextView
+                 android:layout_marginTop="@dimen/margin"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:paddingTop="@dimen/margin_top"
+                 android:text="TITLE"
+                 android:textSize="8pt"
+                 android:layout_centerHorizontal="true" />
+
+             <Spinner
+                 android:id="@+id/title"
+                 android:layout_width="match_parent"
+                 android:layout_height="60px"
+                 android:paddingTop="@dimen/margin_top"
+                  />
+
+             <TextView
+                 android:layout_marginTop="@dimen/margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/margin_top"
+                android:text="FIRST NAME"
+                android:textSize="8pt"
+                android:layout_centerHorizontal="true" />
+
+            <EditText
+              android:id="@+id/f_name"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingTop="@dimen/margin_top"
+              android:text=""
+              android:hint="First Name"
+              android:singleLine="true"
+              android:textSize="8pt"
+              android:layout_centerHorizontal="true" />
+
+          <TextView
+              android:layout_marginTop="@dimen/margin"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingTop="@dimen/margin_top"
+              android:text="LAST NAME"
+              android:textSize="8pt"
+              android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:id="@+id/l_name"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingTop="@dimen/margin_top"
+              android:text=""
+              android:hint="Last Name"
+              android:singleLine="true"
+              android:textSize="8pt"
+              android:layout_centerHorizontal="true" />
+
+          <TextView
+              android:layout_marginTop="@dimen/margin"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingTop="@dimen/margin_top"
+              android:text="PRIMARY PHONE"
+              android:textSize="8pt"
+              android:layout_centerHorizontal="true" />
+
+            <EditText
+                 android:id="@+id/p_home"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:paddingTop="@dimen/margin_top"
+                 android:text=""
+                 android:hint="Primary Phone"
+                 android:singleLine="true"
+                 android:inputType="number"
+                 android:textSize="8pt"
+                 android:layout_centerHorizontal="true" />
+
+             <TextView
+                 android:layout_marginTop="@dimen/margin"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:paddingTop="@dimen/margin_top"
+                 android:text="EMAIL"
+                 android:textSize="8pt"
+                 android:layout_centerHorizontal="true" />
+
+             <EditText
+                 android:id="@+id/email"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:paddingTop="@dimen/margin_top"
+                 android:text=""
+                 android:hint="Email"
+                 android:singleLine="true"
+                 android:textSize="8pt"
+                 android:layout_centerHorizontal="true" />
+
+             <TextView
+                 android:layout_marginTop="@dimen/margin"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:paddingTop="@dimen/margin_top"
+                 android:text="PASSWORD"
+                 android:textSize="8pt"
+                 android:layout_centerHorizontal="true" />
+
+             <EditText
+                 android:id="@+id/password"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:paddingTop="@dimen/margin_top"
+                 android:password="true"
+                 android:text=""
+                 android:hint="Password"
+                 android:singleLine="true"
+                 android:textSize="8pt"
+                 android:layout_centerHorizontal="true" />
+
+             <TextView
+                 android:layout_marginTop="@dimen/margin"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:paddingTop="@dimen/margin_top"
+                 android:text="CONFIRM PASSWORD"
+                 android:textSize="8pt"
+                 android:layout_centerHorizontal="true" />
+
+             <EditText
+                 android:id="@+id/c_password"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:paddingTop="@dimen/margin_top"
+                 android:password="true"
+                 android:text=""
+                 android:hint="Confirm Password"
+                 android:singleLine="true"
+                 android:textSize="8pt"
+                 android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_marginTop="@dimen/margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_top_btn"
+            android:background="@drawable/round_btn"
+            android:textColor="@color/white"
+            android:text="SIGN UP"
+            android:id="@+id/btnSignUpSignUp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true" />
+
+        <TableLayout
+            android:layout_marginTop="@dimen/margin"
+            android:layout_width="fill_parent"
+            android:paddingTop="@dimen/margin_top_btn"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:weightSum="100"
+                >
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_btn"
+                    android:padding="@dimen/margin_top_btn"
+                    android:textColor="@color/white"
+                    android:text="SIGN IN"
+                    android:id="@+id/btnSignUpSignIn"
+                    android:gravity="center"
+                    android:layout_weight="50"/>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="100dp"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/margin_top_btn"
+                    android:background="@drawable/round_btn"
+                    android:textColor="@color/white"
+                    android:text="FORGOT PASSWORD"
+                    android:id="@+id/btnSignUpForgot"
+                    android:gravity="center"
+                    android:layout_weight="50" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+

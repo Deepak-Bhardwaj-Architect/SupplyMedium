@@ -1,0 +1,37 @@
+DONE - COMPANY WEBSITE - ADD TITLE HERE AND ON HOVER DISPLAY COMPANY WEBSITE LABEL 
+DONE - DEFAULT NO IMAGE USER PIC ON REGISTER USER / ADD NEW USER
+
+DONE - remove payment options and paypal on company profile
+DONE - company type change and change the session value
+DONE - company website title - name of website
+
+DONE - Search page Buyer/Supplier
+DONE - <b>press search now button to refresh your results</b>
+DONE - search  contact - buyer can supplier (page) and supplier can buyer (page)
+
+DONE - via global notification not generated for VR
+DONE - show item details pic is not visible
+DONE - same on search existing product
+NOT POSSIBLE - update product pic on row click here (TRICKY AND LENGTHY)
+
+DONE - add new item remove barcode validation
+DONE - partno remove - Batch/Lot No - on every level
+
+DO - qty price multipl date - changeable - on every level
+
+DO - tis - dt picker1 dt picker 2
+DO - s-curreny - qty unit
+
+DO - recurring on invoice area - it is floating - make it fixed
+DO - display shorten name of file uploaded - and on mouseover 
+DO - display complete - or on click - select display complete name
+
+DO - like name comment and notifications must be there - pop up dialog
+DO - send private message - on connected selected friend...
+
+global notification redirection of buyer VR supplier VR to diff diff
+global notification redirection of transacetion to diff diff
+facebook like ping sound on chat / message / global notification
+selected event must be opened for selected record via global notification
+press button/show circle of loading
+

@@ -1,0 +1,9 @@
+internal page folder file uploading issue
+price plan and current usage on company profile
+IE8 detected and redirect to IE9
+company logo validation
+dual selection via global notification
+
+account policy - invalid attempt lockout 
+company profile takes time
+remove miliseconds from time every where

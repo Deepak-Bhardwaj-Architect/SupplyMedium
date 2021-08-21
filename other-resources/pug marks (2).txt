@@ -1,0 +1,37 @@
+SUBMIT A TICKET
+http://support.energizedhosting.com/
+info@supplymedium.com
+a1b2c3d4
+
+TOMCAT
+supplymedium.in:8080
+admin
+rXn3?9d)%GC4
+
+MySQL
+supplymedium.in/phpmyadmin/
+root
+5AkWPXgCWr
+
+FTP DETAILS
+supplymedium.in
+javaadmin
+2C&wm+V@&(8]
+
+VPS Management Console
+----------------------
+http://vps-mgmt.pugmarks.in:5353/
+Username :: supplymedium
+Password :: x8q3TvIOY7TBsr5
+
+Server Details
+--------------
+Main IP Address :: 65.182.191.225
+Username :: Root
+Password :: 5AkWPXgCWr
+
+Backup Space Details
+--------------------
+Backup IP :: 207.191.234.9
+Username :: supplymedium
+Password :: WPXgCWrdfsfwe

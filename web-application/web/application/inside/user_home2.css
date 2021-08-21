@@ -1,0 +1,28 @@
+@import url( dilbag.css );
+.invite {
+	border: 1px solid rgb(11, 144, 174); left: 100%; top: 50%; width: 330px; height: 70px; margin-top: -35px; margin-left: 0px; position: fixed; background-color: white;
+}
+.show_btn {
+	border: 1px solid rgb(11, 144, 174); left: 100%; top: 50%; width: 45px; height: 50px; margin-top: -25px; margin-left: -45px; position: fixed; box-shadow: 0px 0px 10px #888888; background-color: white;
+}
+.show_btn_new {
+	left: 100%; top: 50%; width: 45px; height: 50px; margin-top: -25px; margin-left: -45px; position: fixed; background-color: transparent;
+}
+.show_invite_btn {
+	background: url("add_image_blue.png"); width: 25px; height: 25px; margin-top: 13px; margin-left: 10px;
+}
+.invite_label {
+	font-family: Verdana; font-size: 12px; margin-left: 65px;
+}
+.invite_send {
+	width: 280px; height: 36px; margin-top: -14px; margin-left: 6px; float: left; background-color: rgb(196, 196, 196);
+}
+.text {
+	width: 156px; height: 18px; color: black; margin-top: 8px; margin-left: 5px;
+}
+.invite_btn {
+	border: currentColor; width: 80px; height: 20px; color: white; margin-left: 10px; background-color: rgb(21, 141, 168);
+}
+.img_btn {
+	margin-top: -8px; margin-left: 10px; float: left;
+}

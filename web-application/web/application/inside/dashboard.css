@@ -1,0 +1,213 @@
+@CHARSET "ISO-8859-1";
+
+.dashboardcontainer
+{
+	min-height: 720px;
+	background: white;
+	border:1px solid #c7c7c7;
+	font-family: verdana;
+}
+
+.dashboardtextbox
+{
+	width: 985px;
+	height: 30px;
+	border: 5px solid #c8c8c8;
+	background: white;
+}
+
+.dashboardtextbox:focus 
+{
+	border: 5px solid #f47d01;
+	outline: none;
+}
+
+.main_tab_sep 
+{
+	width: 100%;
+	height: 12px;
+	background-color: #de7b13;
+}
+.main_tab_unselect 
+{
+	width: 170px;
+	height: 23px;
+	font-family: Verdana;
+	font-size: 12px;
+	color: white;
+	background-color: #858585;
+	border: 1px solid #c8c8c8;
+	float: left;
+	line-height: 22px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.main_tab_select 
+{
+	width: 170px;
+	height: 25px;
+	font-family: Verdana;
+	font-size: 12px;
+	color: white;
+	background-color: #de7b13;
+	float: left;
+	line-height: 23px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.divtimebasedreport
+{
+	padding: 50px;
+}
+
+.chartTitlebuttons
+{
+	margin: 40px 0px 0px 40px;
+}
+
+.singleLine
+{
+	float: left;	
+	height: 37px;
+	border: 1px solid #c8c8c8;
+	line-height: 37px;	
+	cursor: pointer;
+}
+
+#divtimebasedreport .charTitle
+{
+	line-height: 40px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#divtimebasedreport .DaysButton
+{
+	width: 130px;
+	vertical-align: middle;
+	background: #f1f1f1 url('../images/Down_Arrow.png') no-repeat 110px 13px;
+	padding-left: 20px;
+	margin-right: 50px;
+}
+
+.ReportTabUnSelect
+{
+	width: 100px;
+	background: #fdfdfd;
+	text-align:center;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZkZmRmZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ4JSIgc3RvcC1jb2xvcj0iI2VkZWRlZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlNGU0ZTQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #fdfdfd 0%, #ededed 48%, #e4e4e4 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(48%,#ededed), color-stop(100%,#e4e4e4));
+	background: -webkit-linear-gradient(top,  #fdfdfd 0%,#ededed 48%,#e4e4e4 100%);
+	background: -o-linear-gradient(top,  #fdfdfd 0%,#ededed 48%,#e4e4e4 100%);
+	background: -ms-linear-gradient(top,  #fdfdfd 0%,#ededed 48%,#e4e4e4 100%);
+	background: linear-gradient(to bottom,  #fdfdfd 0%,#ededed 48%,#e4e4e4 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#e4e4e4',GradientType=0 );
+	
+}
+
+.ReportTabSelected
+{
+	width: 100px;
+	background: #fdfdfd;
+	text-align:center;
+	background: #e7e7e7;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U3ZTdlNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ4JSIgc3RvcC1jb2xvcj0iI2YzZjNmMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZWZlZmUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #e7e7e7 0%, #f3f3f3 48%, #fefefe 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e7e7e7), color-stop(48%,#f3f3f3), color-stop(100%,#fefefe));
+	background: -webkit-linear-gradient(top,  #e7e7e7 0%,#f3f3f3 48%,#fefefe 100%);
+	background: -o-linear-gradient(top,  #e7e7e7 0%,#f3f3f3 48%,#fefefe 100%);
+	background: -ms-linear-gradient(top,  #e7e7e7 0%,#f3f3f3 48%,#fefefe 100%);
+	background: linear-gradient(to bottom,  #e7e7e7 0%,#f3f3f3 48%,#fefefe 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7e7e7', endColorstr='#fefefe',GradientType=0 );
+
+}
+
+.jqplot-table-legend
+{
+	left: 10px !important;
+	
+}
+
+table.jqplot-table-legend, table.jqplot-cursor-legend
+{
+	font-size: 1em !important;
+	padding: 1em !important;
+}
+
+table.jqplot-table-legend, table.jqplot-cursor-legend
+{
+	border: none !important; 
+}
+
+td.jqplot-table-legend
+{
+	padding: 5px !important;
+}
+
+.report_type
+{
+	margin: 0px 0px 0px 365px;
+	height:75px;
+	float:left;
+}
+
+.table
+{
+	width: 398px;
+	max-height: 431px;
+	border: 1px solid #c8c8c8;
+	border-top: none;
+	float: left;
+	background-color: #f1f1f1;
+	font-family: Verdana;
+	font-size: 14px;
+	color: #464646;
+	text-align: center;
+	margin-left: 280px;
+	
+}
+
+.tablehead
+{
+	width:398px;
+	height:39px;
+	background-color:#65b0c4;
+	border:1px solid #c8c8c8;
+	color:white;
+	float:left;
+}
+
+.tabledata
+{
+	width:398px;
+	height:39px;
+	color:#464646;
+	float:left;
+}
+
+.no_records
+{
+	font-family: Verdana;
+	font-size: 20px;
+	margin-left: 384px;
+	margin-top: 100px;
+}
+
+.generate_btn_container
+{
+	width:1000px;
+	height:30px;
+	float:left;
+	margin-top:20px;
+	margin-left:40px;
+}
+
+.generate_btn
+{
+	font-size: 13px !important;
+    height: 26px !important;
+    width: 73px !important;
+}
