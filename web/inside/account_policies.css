@@ -1,0 +1,104 @@
+@CHARSET "ISO-8859-1";
+
+.policiesleft
+{
+	width:480px;
+	padding:10px;
+	height:auto;
+	border-right:1px solid #c8c8c8;
+	float:left;
+}
+
+.policiesright
+{
+	float:right;
+	width:478px;
+	padding:10px;
+	height:auto;
+}
+
+
+.policyhead
+{
+	width: 490px;
+	height: 20px;
+	color: #078caa;
+	font-family: Verdana;
+	font-size: 15px;
+	text-align: left;
+	float: left;
+	margin-bottom:20px;
+}
+
+.policyrow
+{
+	width:470px;
+	height:50px;
+	float:left;
+	margin-left:20px;
+}
+
+.policy_fieldset
+{
+	width:400px;
+	height:160px;
+	border:1px solid #7AB0CA;
+	padding-left:20px;
+	margin-left:20px;
+	float:left;
+}
+
+.ap_check_lbl
+{
+	line-height:18px;
+	font-family:Verdana;
+	vertical-align:middle;
+	font-size:12px;
+	margin-left:5px;
+}
+
+.ap_legend
+{
+	font-size:12px;
+	font-family:Verdana;
+	padding:10px;
+	font-weight:bold;
+}
+
+.ap_upt_btn
+{
+	
+	float:left;
+	margin-top:70px;
+	margin-left:450px;
+	margin-bottom:10px;
+}
+
+#acc_policy_err
+{
+	color: red;
+	font-family: Verdana;
+	font-size: 11px;
+	width: 460px;
+	min-height: 15px;
+	text-align: center;
+	height: auto;
+	float: left;
+	margin-bottom:20px;
+	padding-left:275px;
+}
+	
+#pass_comp_error
+{
+	color: red;
+	font-family: Verdana;
+	font-size: 11px;
+	width:300px;
+	min-height: 15px;
+	text-align: center;
+	height: auto;
+	float:left;
+	margin-left:20px;
+	text-align:left;
+	
+}

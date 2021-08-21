@@ -1,0 +1,98 @@
+#menucontainer {
+	width: 100%; height: auto; float: left; background-color: rgb(241, 241, 241);
+}
+#Menu {
+	width: 1009px; margin-right: auto; margin-left: auto;
+}
+.Gen_nav {
+	text-align: center; font-family: Verdana, Tahoma; -webkit-transition: all 0.218s; -moz-transition: all 0.218s; -ms-transition: all 0.218s; -o-transition: all 0.218s; transition: all 0.218s;
+}
+.Gen_nav a {
+	color: inherit; font-weight: inherit;
+}
+.Gen_nav table {
+	width: 100%;
+}
+.Gen_nav {
+	float: left;
+}
+.nav_Main {
+	background: url("Menu_BGM.png") repeat-x rgb(226, 228, 223); margin: 0px; border-radius: 20px; border: 1px solid rgb(3, 155, 194); width: 1009px; height: 42px; color: rgb(0, 115, 130); line-height: 42px; font-size: 14px; cursor: pointer; -moz-border-radius: 20px; -webkit-border-radius: 20px; -o-border-radius: 20px;
+}
+.nav_Main ul {
+	position: absolute;
+}
+.nav_Main li a {
+	display: block;
+}
+.nav_Main li {
+	float: left;
+}
+/*
+.nav_Main li.first:hover{
+	background: url("Menu_Hover.png") repeat-x rgb(226, 228, 223); color: white;border-radius: 20px 0 0 20px; border: 1px solid rgb(3, 155, 194);
+}
+.nav_Main li.last:hover{
+	background: url("Menu_Hover.png") repeat-x rgb(226, 228, 223); color: white;border-radius: 20px; border: 1px solid rgb(3, 155, 194);
+}
+.nav_Main li :hover{
+	background: url("Menu_Hover.png") repeat-x rgb(226, 228, 223); color: white;border-radius: 20px; border: 1px solid rgb(3, 155, 194);
+}
+*/
+.HideMenu {
+	display: none;
+}
+.DisplayMenu {
+	display: block;
+}
+.MenuType2 li {
+	width: 167.4px;
+}
+.MenuType1 li {
+	width: 144.1px;
+}
+.MenuType3 li {
+	width: 201.2px;
+}
+.navmainSelected {
+	background: url("Menu_Selected.png") repeat-x rgb(5, 138, 167); color: white;
+}
+.nav_Main ul li:first-child {
+	border-radius: 20px 0px 0px 20px; -moz-border-radius: 20px 0 0 20px; -webkit-border-radius: 20px 0 0 20px; -o-border-radius: 20px 0 0 20px;
+}
+.nav_Main_second_menu {
+	border-radius: 20px 0px 0px 20px; -moz-border-radius: 20px 0 0 20px; -webkit-border-radius: 20px 0 0 20px; -o-border-radius: 20px 0 0 20px;
+}
+.nav_Main ul li:last-child {
+	border-radius: 0px 20px 20px 0px; -moz-border-radius: 0px 20PX 20PX 0px; -webkit-border-radius: 0px 20PX 20PX 0px; -o-border-radius: 0px 20PX 20PX 0px;
+}
+.nav_Main_last_menu {
+	border-radius: 0px !important; -moz-border-radius: 0px 0PX 0PX 0px; -webkit-border-radius: 0px 0PX 0PX 0px; -o-border-radius: 0px 0PX 0PX 0px;
+}
+.nav_Main table tr td:hover {
+	background: url("Menu_Hover.png") repeat-x rgb(5, 138, 167); color: white;
+}
+.menu_separtor {
+	background: url("Menu_Separator.png") no-repeat; width: 2px; height: 42px; float: left; position: relative; z-index: 0;
+}
+.nav_Sub {
+	background: url("SubMenu_BGM.png") repeat-x rgb(226, 228, 223); margin: 1px 0px 0px 18px; border: 1px solid rgb(170, 170, 170); width: 974px; height: 23px; color: black; line-height: 23px; font-size: 12px; cursor: pointer;
+}
+.navsubSelected {
+	background: url("Submenu_Selected.png") repeat-x; padding: 0px 7px; color: white;
+}
+.Sub_menu_separtor {
+	background: url("Submenu_Separator.png") no-repeat; width: 2px; height: 21px; float: left; position: relative; z-index: 0;
+}
+.nav_Sub li {
+	margin: 0px; float: left;
+}
+.nav_Sub li:hover{
+	background: url("Submenu_SelectedB.png"); color: white;
+}
+.nav_Sub li a {
+	display: block;padding:0 7px;
+}
+.nav_Sub ul {
+	display: none; position: absolute;
+}

@@ -1,0 +1,159 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package supply.medium.home.servlet;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.PrintWriter;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+import supply.medium.home.bean.TransactionPoBean;
+import supply.medium.home.database.NotificationMaster;
+import supply.medium.home.database.TransactionPoItemMaster;
+import supply.medium.home.database.TransactionPoMaster;
+import supply.medium.home.database.TransactionQteItemMaster;
+import supply.medium.home.database.UserMaster;
+import supply.medium.home.pdf.GeneratePO;
+import supply.medium.utility.SmProperties;
+import supply.medium.utility.TestMemory;
+
+/**
+ *
+ * @author Lenovo
+ */
+public class TransQuoteToPoDecode extends HttpServlet {
+
+    /**
+     * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
+     * methods.
+     *
+     * @param request servlet request
+     * @param response servlet response
+     * @throws ServletException if a servlet-specific error occurs
+     * @throws IOException if an I/O error occurs
+     */
+    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        response.setContentType("text/html;charset=UTF-8");
+        try (PrintWriter out = response.getWriter()) {
+            /* TODO output your page here. You may use following sample code. */
+            HttpSession session = request.getSession(true);
+            String transPoKey=""+System.currentTimeMillis();
+            String companyKeyFrom = session.getAttribute("companyKey").toString();
+            String companyKeyTo = request.getParameter("companyKeyTo");
+            String userKeyFrom = session.getAttribute("userKey").toString();
+            String userKeyTo = UserMaster.showAdminKeyFromCompanyKey(companyKeyTo)+"";
+            String transactionType="Purchase Order";
+            String qTransRfqKey="0";
+            String poNo = "PO" + transPoKey;
+            String transStatus = "PO Sent";
+            String transAction = "Pending";
+            String quoteRef = request.getParameter("quoteRefNo"); 
+            
+            String isOutside = request.getParameter("outside_supplier");
+            String isOutsideAddress = "";
+            
+            if (isOutside != null) {
+                isOutside = "yes";
+                String outsideSupplierName = request.getParameter("otsd_splr_nm");
+                String outsideSupplierCountry = request.getParameter("outsideSupplierCountry");
+                String outsideSupplierState = request.getParameter("state_0");
+                String outsideSupplierCity = request.getParameter("otsd_splr_cty");
+                String outsideSupplierAddress = request.getParameter("otsd_splr_adrs");
+                String outsideSupplierZipcode = request.getParameter("otsd_splr_zpcd");
+                String outsideSupplierEmail = request.getParameter("email");
+                isOutsideAddress = outsideSupplierName + "@#@#@" + outsideSupplierCountry + "@#@#@"
+                        + outsideSupplierState + "@#@#@" + outsideSupplierCity + "@#@#@" + outsideSupplierAddress + "@#@#@"
+                        + outsideSupplierZipcode + "@#@#@" + outsideSupplierEmail;
+
+            } else {
+                isOutside = "no";
+            }
+            String recurring = request.getParameter("recurring");
+            String totalAmount = request.getParameter("tot_list_price_amt");
+            String taxPercent = request.getParameter("qt_tx");
+            if(taxPercent==null)
+                taxPercent="0";
+            String billingAmount = request.getParameter("tot_price_amt");
+            String isPoCreated = "no";
+
+            transPoKey = TransactionPoMaster.insertPo(transPoKey,companyKeyFrom,companyKeyTo,
+                    userKeyFrom,userKeyTo,transactionType,qTransRfqKey,poNo, transStatus, transAction, quoteRef,
+                    isOutside, isOutsideAddress,recurring,totalAmount,taxPercent,billingAmount,isPoCreated);
+            NotificationMaster.insert(userKeyFrom, userKeyTo, companyKeyFrom, companyKeyTo, "PO", transPoKey, "PO Genrated");
+            String itemKey[] = request.getParameterValues("item_key");
+            String partNo[] = request.getParameterValues("part_no");
+            String barcode[] = request.getParameterValues("brcd_no");
+            String quantity[] = request.getParameterValues("quantity");
+            String quantityUnitKey[] = request.getParameterValues("quantityUnitKey");
+            String shipDate[] = request.getParameterValues("ship_date");
+            String price[] = request.getParameterValues("price");
+            String currencyKey[] = request.getParameterValues("currencyKey");
+            String multiplier[] = request.getParameterValues("discount");
+            for (int i = 0; i < itemKey.length; i++) {
+
+                TransactionPoItemMaster.insertPoItem(transPoKey, poNo, itemKey[i], partNo[i], barcode[i], quantity[i], quantityUnitKey[i], shipDate[i], price[i], currencyKey[i], multiplier[i]);
+            
+            }
+            TransactionPoBean trb = TransactionPoMaster.showByKey(transPoKey);
+            SmProperties.folderPath = request.getServletContext().getRealPath("")+ File.separator + "cropData" + File.separator;
+            GeneratePO.generate(SmProperties.folderPath,trb.getPo_trans_rqf_key(),trb.getTrans_key() , trb.getCompany_key_from(), trb.getCompany_key_to());
+            TestMemory.test("footer start");
+                System.gc();
+                TestMemory.test("footer end");
+
+            response.sendRedirect("transactionsPurchaseOrder.jsp");
+        }
+        catch(Exception e)
+        {
+            System.out.println("Exception on TransQuoteToPoDecode : "+e.getMessage());
+        }
+    }
+
+    // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
+    /**
+     * Handles the HTTP <code>GET</code> method.
+     *
+     * @param request servlet request
+     * @param response servlet response
+     * @throws ServletException if a servlet-specific error occurs
+     * @throws IOException if an I/O error occurs
+     */
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        processRequest(request, response);
+    }
+
+    /**
+     * Handles the HTTP <code>POST</code> method.
+     *
+     * @param request servlet request
+     * @param response servlet response
+     * @throws ServletException if a servlet-specific error occurs
+     * @throws IOException if an I/O error occurs
+     */
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        processRequest(request, response);
+    }
+
+    /**
+     * Returns a short description of the servlet.
+     *
+     * @return a String containing servlet description
+     */
+    @Override
+    public String getServletInfo() {
+        return "Short description";
+    }// </editor-fold>
+
+}
