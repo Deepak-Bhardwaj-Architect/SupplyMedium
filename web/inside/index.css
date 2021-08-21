@@ -1,0 +1,39 @@
+.logincontentcontainer {
+	width: 100%; height: auto; padding-top: 5%; padding-bottom: 5%; background-color: rgb(241, 241, 241);
+}
+.logincontent {
+	border-radius: 10px; border: 1px solid rgb(120, 120, 120); width: 630px; height: 330px; margin-right: auto; margin-left: auto; background-color: rgb(255, 255, 255); -moz-border-radius: 10px;
+}
+.loading {
+	height: 400px; text-align: center; padding-top: 300px; font-size: 40px;
+}
+.signintitle {
+	height: 50px; text-align: left; color: rgb(255, 255, 255); line-height: 50px; padding-left: 30px; font-family: Verdana; font-size: 22px; font-weight: 500; border-bottom-color: rgb(120, 120, 120); border-bottom-width: 1px; border-bottom-style: solid; border-top-left-radius: 9px; border-top-right-radius: 9px; background-color: rgb(243, 125, 1); -moz-border-radius-topleft: 9px; -moz-border-radius-topright: 9px;
+}
+.loginleft {
+	width: 300px; height: auto; padding-top: 20px; padding-left: 30px; float: left;
+}
+.loginright {
+	width: 280px; height: auto; padding-top: 40px; float: right;
+}
+.loginlbl {
+	width: 270px; font-family: Verdana; font-size: 12px; margin-bottom: 10px; float: left;
+}
+.labellink {
+	line-height: 18px; letter-spacing: 1px; font-size: 11px; margin-bottom: 37px;
+}
+label.error {
+	border: currentColor; width: 300px; color: red; line-height: 15px; margin-left: 0px; float: left;
+}
+.emailcontainer {
+	height: 70px;
+}
+.passwordcontainer {
+	height: 70px;
+}
+.remembercontainer {
+	height: 30px;
+}
+.loginerr {
+	height: 15px; color: red; line-height: 15px; font-family: Verdana; font-size: 12px;
+}
