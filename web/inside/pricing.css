@@ -1,0 +1,81 @@
+.pricingheading {
+	height: 70px; text-align: center; color: rgb(40, 40, 40); letter-spacing: 1px; font-family: "Verdana"; font-size: 30px; margin-top: 20px;
+}
+.pricingtag {
+	width: auto; height: auto; margin-bottom: 20px; float: left;
+}
+.pricing {
+	width: 1024px; margin-right: auto; margin-left: auto; float: left; position: relative;
+}
+.pricingtagimg {
+	width: 150px; height: 205px; margin-left: 75px; float: left; cursor: pointer;
+}
+.mostpopularimg {
+	left: 412px; top: 65px; position: absolute;
+}
+.bluetag {
+	padding-top: 45px; padding-right: 5px; padding-left: 5px; background-image: url("blue_tag.png");
+}
+.bluetag_mo {
+	padding-top: 45px; padding-right: 5px; padding-left: 5px; background-image: url("blue_tag_sel.png");
+}
+.greentag {
+	padding-top: 45px; padding-right: 5px; padding-left: 5px; background-image: url("green_tag.png");
+}
+.greentag_mo {
+	padding-top: 45px; padding-right: 5px; padding-left: 5px; background-image: url("green_tag_sel.png");
+}
+.orangetag {
+	padding-top: 45px; padding-right: 5px; padding-left: 5px; background-image: url("orange_tag.png");
+}
+.orangetag_mo {
+	padding-top: 45px; padding-right: 5px; padding-left: 5px; background-image: url("orange_tag_sel.png");
+}
+.redtag {
+	padding-top: 45px; padding-right: 5px; padding-left: 5px; background-image: url("red_tag.png");
+}
+.redtag_mo {
+	padding-top: 45px; padding-right: 5px; padding-left: 5px; background-image: url("red_tag_sel.png");
+}
+.tick {
+	width: 14px; height: 14px; padding-right: 1px;
+}
+.tagtitle {
+	height: 40px; text-align: center; color: rgb(40, 40, 40); font-family: Verdana; font-size: 22px; margin-top: 5px;
+}
+.tagdesc {
+	height: 25px; text-align: left; color: rgb(40, 40, 40); padding-left: 2px; font-family: Verdana; font-size: 11px;
+}
+.tagdescleft {
+	width: 14px; float: left;
+}
+.tagdescright {
+	width: 130px; padding-left: 2px; float: left;
+}
+.w133 {
+	width: 133px !important;
+}
+.tagdescmed {
+	height: 30px; text-align: center; padding-left: 2px; font-family: Verdana; font-size: 16px;
+}
+.pricingradiobox {
+	width: 30px; height: 30px; padding-right: 30px; padding-left: 30px;
+}
+.select {
+	width: 145px; height: 40px; text-align: center; color: white; line-height: 66px;
+}
+.pricingradioboxlbl {
+	width: 150px; height: 50px; padding-right: 100px; font-size: 30px;
+}
+#captchacontainer {
+	width: 450px; height: 40px; margin-top: 30px; margin-left: 170px; float: left;
+}
+#conditions {
+	width: 800px; padding-top: 20px; padding-bottom: 30px; margin-left: 170px; float: left;
+}
+.captchareload {
+	border: currentColor; width: 15px; height: 17px; margin-top: 10px; margin-left: 10px; cursor: pointer; background-image: url("captchareload.png"); background-color: rgb(255, 255, 255);
+}
+.captchabg {
+	background-image: url("regcaptcha.jpg");
+}
