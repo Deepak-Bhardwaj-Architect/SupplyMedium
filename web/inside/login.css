@@ -1,0 +1,12 @@
+.logincontentcontainer {
+	width: 100%; height: auto; padding-top: 5%; padding-bottom: 5%; background-color: rgb(241, 241, 241);
+}
+.logincontent {
+	border-radius: 10px; border: 1px solid rgb(76, 182, 207); width: 630px; height: 330px; margin-right: auto; margin-left: auto; background-color: rgb(255, 255, 255); -moz-border-radius: 10px;
+}
+.title {
+	height: 50px; text-align: center; color: rgb(255, 255, 255); line-height: 50px; font-family: Verdana; font-size: 22px; border-bottom-color: rgb(76, 182, 207); border-bottom-width: 1px; border-bottom-style: solid; border-top-left-radius: 9px; border-top-right-radius: 9px; background-color: rgb(76, 182, 207); -moz-border-radius-topleft: 9px; -moz-border-radius-topright: 9px;
+}
+.loginerr {
+	height: 15px; text-align: center; color: red; line-height: 15px;
+}

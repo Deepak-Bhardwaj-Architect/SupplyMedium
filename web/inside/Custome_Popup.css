@@ -1,0 +1,75 @@
+.Custome_Popup_Window {
+	left: 0px; top: 0px; width: 100%; height: 100%; float: left; display: none; position: fixed; z-index: 101; background-color: rgba(0, 0, 0, 0.16);
+}
+#Custome_Popup_Window table {
+	width: 100%; height: 100%;
+}
+.Cus_Popup_Outline {
+	margin: auto; border-radius: 10px; width: 1000px !important; font-family: Cambria, serif; font-size: 14px; z-index: 9999999 !important; cursor: default; box-shadow: 0px 0px 15px rgba(0,0,0,0.51); background-color: white; -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.51); -moz-border-radius: 10px; -webkit-border-radius: 10px; -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.51);
+}
+.Popup_Outline_NewGroup {
+	
+}
+.Cus_Popup_Outline table td {
+	padding: 10px; font-family: "Verdana", Times, serif; font-size: 15px; vertical-align: middle;
+}
+.Cus_Popup_Outline table {
+	margin: 20px 20px 20px 30px;
+}
+.Gen_Popup_Title {
+	padding: 0px 0px 0px 15px; width: auto; height: 40px; text-align: left; color: rgb(248, 255, 255); line-height: 40px; letter-spacing: 0.02em; font-family: Verdana,Arial,sans-serif; font-size: 18px; border-top-left-radius: 10px; border-top-right-radius: 10px; -webkit-border-top-left-radius: 10px; -webkit-border-top-right-radius: 10px; -moz-border-top-left-radius: 10px; -moz-border-top-right-radius: 10px;
+}
+.Popup_Tilte_AddAddress {
+	border-bottom-color: rgb(122, 120, 123); border-bottom-width: 1px; border-bottom-style: solid; filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EDA04E', endColorstr='#f1a350',GradientType=1 ); border-top-left-radius: 9px; border-top-right-radius: 9px; -webkit-border-top-left-radius: 9px; -webkit-border-top-right-radius: 9px; -moz-border-top-left-radius: 9px; -moz-border-top-right-radius: 9px;
+}
+.Popup_Tilte_NewGroup {
+	background: rgb(87, 208, 237); border-bottom-color: rgb(64, 152, 173); border-bottom-width: 1px; border-bottom-style: solid; filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57d0ed', endColorstr='#4cb6cf',GradientType=0 );
+}
+.Popup_Tilte_NewGroup {
+	background: rgb(0, 167, 201); border-bottom-color: rgb(64, 152, 173); border-bottom-width: 1px; border-bottom-style: solid; filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a7c9', endColorstr='#009abc',GradientType=0 );
+}
+.Pop_Heading_USet {
+	color: rgb(230, 136, 20); font-weight: bold;
+}
+.Cus_Popup_Field {
+	padding: 4px; border: 1px solid rgb(204, 204, 204); width: 200px; font-family: "Segoe UI", Tahoma, sans-serif; font-size: 85%; box-shadow: inset 0px 0px 5px #ccc; -webkit-box-shadow: inset 0 0 5px #ccc; -moz-box-shadow: inset 0 0 5px #ccc;
+}
+.Cus_Pop_selectbox {
+	background: url("CompoDown.png") no-repeat right rgb(255, 255, 255); width: 210px; -webkit-appearance: none;
+}
+.Gen_Cus_Popup_Close {
+	margin: 8px 20px 0px 0px; width: 22px; height: 20px; text-align: center; padding-bottom: 2px; float: right; cursor: pointer;
+}
+.Popup_Close_AddAddress {
+	background: url("Popup_Close_Button.png") no-repeat 0px 2px; border-radius: 5px; border: 2px solid rgb(246, 124, 1);
+}
+.Popup_Close_AddAddress:hover {
+	background: url("Popup_Close_Button.png") no-repeat 0px -23.5px rgb(255, 129, 4); text-shadow: 1px 2px 1px rgba(92, 95, 95, 0.26);
+}
+.Popup_Close_AddAddress:active {
+	background: url("Popup_Close_Button.png") no-repeat 0px -48px rgb(255, 255, 255); color: rgb(255, 129, 4);
+}
+.Popup_Close_NewGroup {
+	background: url("Popup_Close_Button.png") no-repeat 2px 3px rgb(0, 153, 187); border-radius: 0px; border: 1px solid rgb(3, 124, 151); width: 25px; height: 22px;
+}
+.Popup_Close_NewGroup:hover {
+	background: url("Popup_Close_Button.png") no-repeat 2px -22.5px rgb(20, 119, 142); text-shadow: 1px 2px 1px rgba(92, 95, 95, 0.26);
+}
+.Popup_Close_NewGroup:active {
+	background: url("Popup_Close_Button.png") no-repeat 2px -72px white;
+}
+.Popup_Tilte_NewDepartment {
+background: rgb(0, 167, 201);
+border-bottom-color: rgb(64, 152, 173);
+border-bottom-width: 1px;
+border-bottom-style: solid;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a7c9', endColorstr='#009abc',GradientType=0 );
+}
+
+.Popup_Close_NewDepartment {
+background: url("Popup_Close_Button.png") no-repeat 2px 3px rgb(0, 153, 187);
+border-radius: 0px;
+border: 1px solid rgb(3, 124, 151);
+width: 25px;
+height: 22px;
+}

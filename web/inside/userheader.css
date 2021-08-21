@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+}
+.header {
+    width: 100%; background-color: rgb(255, 255, 255);
+}
+.headercontent {
+    width: 1024px; height: 120px; margin-right: auto; margin-left: auto; position: relative;
+}
+.header_right {
+    width: 400px; padding-right: 30px; float: right; position: relative;
+}
+.header_left {
+    width: 550px; height: 90px; float: left;
+}
+.userdetails {
+    width: 400px; height: 60px; float: right;margin-top:40px;
+}
+.header_links_container {
+    width: 400px; height: 30px; margin-top: 30px; float: right;
+}
+.header_link {
+    color: rgb(34, 132, 159); font-family: Verdana; font-size: 12px; float: right;
+}
+.userimage {
+    padding-right: 10px; margin-top: -3px; float: right; max-height: 20px; max-width: 20px;
+}
+.username {
+    overflow: hidden; padding-right: 10px; font-family: Verdana; font-size: 12px; float: right; white-space: nowrap; text-overflow: ellipsis; min-width: 100px; max-width: 500px; -o-text-overflow: ellipsis;
+}
+.notification {
+    background: url("globe.png"); width: 20px; height: 20px; margin-top: -3px; float: right; cursor: pointer;
+}
+.acc_menu {
+    width: 80px; padding-left: 10px; font-family: Verdana; font-size: 12px; float: right;
+}
+.acc_menu_content {
+    background: url("acc_set_popup.png"); left: 181px; top: 56px; width: 225px; height: 82px; float: right; display: block; position: absolute; z-index: 100000;
+}
+.acc_menu_item {
+    width: 195px; height: 27px; color: black; line-height: 27px; padding-left: 10px; font-family: Verdana; font-size: 12px; margin-left: 10px; float: left;
+}
+.acc_menu_item:hover {
+    color: white; background-color: rgb(9, 128, 156);
+}
+.notification_badge {
+    border-radius: 10px; border: 2px solid rgb(227, 227, 227); left: 307px; top: 24px; width: auto; height: 16px; text-align: center; color: white; line-height: 15px; font-family: Verdana; font-size: 13px; position: absolute; cursor: pointer; min-width: 24px; background-color: rgb(224, 76, 76);
+}
+.company_label {
+    width: 440px; height: 90px; color: rgb(90, 90, 90); line-height: 120px; overflow: hidden; padding-left: 20px; font-family: Calibri; font-size: 24px; font-weight: bold; float: left; white-space: nowrap; text-overflow: ellipsis;
+}
+.white{
+    color:white;
+}
+.white-reverse{
+    color:#65B0c4;
+}

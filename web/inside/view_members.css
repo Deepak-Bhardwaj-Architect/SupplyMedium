@@ -1,0 +1,51 @@
+body {
+	margin: 0px;
+}
+.container {
+	margin: -230px 0px 0px -350px !important; border-radius: 0px !important; border: 1px solid rgb(200, 200, 200); left: 50%; top: 50%; width: 700px !important; height: 460px; float: left; position: fixed; background-color: white;
+}
+.member_container {
+	width: 660px; height: 30px; margin-top: 40px; margin-bottom: 40px; margin-left: 40px;
+}
+.add_member_container {
+	width: 350px; height: 30px; float: left;
+}
+.add_member {
+	height: 30px; color: rgb(70, 70, 70); line-height: 32px; font-family: Verdana; font-size: 14px; float: left;
+}
+.textbox_container {
+	width: 200px; height: 30px; float: left;
+}
+.newsroom_textbox {
+	border-width: 1px medium 1px 1px; border-style: solid none solid solid; border-color: rgb(200, 200, 200) currentColor rgb(200, 200, 200) rgb(200, 200, 200); padding: 5px; width: 147px; height: 18px; color: rgb(38, 38, 38); font-family: Verdana; font-size: 13px; margin-left: 10px; float: left;
+}
+.button_container {
+	width: 130px; height: 30px; margin-left: 40px; float: right;
+}
+.add_button {
+	border: 1px solid rgb(200, 200, 200); width: 138px; height: 28px; text-align: center; color: rgb(70, 70, 70); line-height: 30px; font-family: Verdana; font-size: 14px; float: left; cursor: pointer; background-color: rgb(217, 217, 217);
+}
+.del_button {
+	width: 80px; height: 30px; text-align: center; color: rgb(255, 255, 255); line-height: 30px; font-family: Verdana; font-size: 14px; margin-left: 10px; float: left; cursor: pointer; background-color: rgb(240, 0, 0);
+}
+.memberlist_container {
+	width: 660px; height: 390px; margin-right: 20px; margin-left: 20px; float: left;
+}
+.memberlist_cont {
+	width: 220px; height: 70px; margin-bottom: 15px; float: left; cursor: pointer;
+}
+.memberlist_cont:hover {
+	background-color: rgb(220, 220, 220);
+}
+.memberlist_cont_selected {
+	width: 220px; height: 70px; margin-bottom: 15px; float: left; cursor: pointer; background-color: rgb(220, 220, 220) !important;
+}
+.img_none {
+	width: 46px; height: 46px; margin-top: 12px; margin-left: 10px; float: left;
+}
+.member_right {
+	width: 150px; height: 70px; margin-top: 10px; margin-left: 10px; float: left;
+}
+.text_label {
+	width: 150px; color: rgb(70, 70, 70); line-height: 17px; overflow: hidden; font-family: Verdana; font-size: 13px; white-space: nowrap; word-wrap: normal; text-overflow: ellipsis;
+}
