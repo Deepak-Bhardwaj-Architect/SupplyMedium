@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+
+.body
+{
+	margin:0px;
+}
+
+.pagetitlecontainer
+{
+	width:100%;
+	background-color:#4cb6cf;
+}
+
+.pagetitle
+{
+	width:1024px;
+	height:40px;
+	margin-left:auto;
+	margin-right:auto;
+	color:#fff;
+	font-family:Verdana;
+	font-size:22px;
+	text-align:center;
+	line-height:40px;
+}
+
+.contentcontainer
+{
+	height:auto;
+	width:100%;
+	background-color:#f1f1f1;
+	padding-top:20px;
+	padding-bottom:20px;
+	
+}
+
+.content
+{
+	
+	width:1024px;
+	min-height:720px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#fff;
+	font-family:"Lucida Sans Unicode", Times, serif;
+	font-size:12px;
+	border:1px solid #787878;
+	height:auto;
+	
+}
