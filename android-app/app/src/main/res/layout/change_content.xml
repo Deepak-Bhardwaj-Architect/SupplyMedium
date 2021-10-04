@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/change_app_bar">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="@dimen/margin"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CURRENT PASSWORD"
+        android:textSize="8pt"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/curr_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:paddingTop="@dimen/margin_top"
+        android:password="true"
+        android:hint="Current Password"
+        android:singleLine="true"
+        android:textSize="8pt"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_marginTop="@dimen/margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEW PASSWORD"
+        android:textSize="8pt"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/new_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:paddingTop="@dimen/margin_top"
+        android:password="true"
+        android:hint="New Password"
+        android:singleLine="true"
+        android:textSize="8pt"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin"
+        android:text="Confirm PASSWORD"
+        android:textSize="8pt"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/con_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:paddingTop="@dimen/margin_top"
+        android:password="true"
+        android:hint="Confirm Password"
+        android:singleLine="true"
+        android:textSize="8pt"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/margin_top"
+        android:background="@drawable/round_btn"
+        android:textColor="@color/white"
+        android:text="Change Password"
+        android:layout_marginTop="@dimen/margin"
+        android:id="@+id/btnSignInSignIn"
+        android:gravity="center"
+        android:layout_centerHorizontal="true" />
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

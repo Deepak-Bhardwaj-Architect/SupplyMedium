@@ -1,0 +1,68 @@
+so is it final to make changes in brochure
+and few new what we had discussed here on skype
+THESE ARE CHANGES AS PER EMAIL AND SKYPE CONVERSATION ON CURRENT BROCHURE
+
+Change "Features of the Application" to "Application Features". 
+Accounting and Bookkeeping, take out management. 
+Change "PDF Document Generation..." to "Transaction Management (RFQ, Quote, PO, Invoice)". this I am not sure about. maybe we need to take it out but it is confusing. Unless we are clearly communicate how this is a feature we should not include it. Now pdfs of RFQ or PO are nothing special. What we need to convey is that we have an automated system lets you create and send a PO in minutes but also generate a pdf for the transaction for your record. May be brake Order and transaction management into two entries.
+Under Introducing Social Supply Chain change the text to "Quick and smart way to connect with business worldwide using SupplyMedium Business Social Network". 
+Under key Benefits should be "Grow Your Business"
+
+
+Can you please make all text as 'justify'?
+
+Also the Orange circle of the icons should be made lighter orange. Similarly, envelope border inside the circle should be made gray instead of black, if possible. Think in terms of contemporary and modern look. The icon page is a bit older looking so we can fine tune it.
+
+
+Also remove 'Free advertising publishing' - that doesn't make sense
+
+
+We are not supporting accounting and booking so that might as well just remove it from here
+
+
+1) mobile compatible with Android and iPhone
+2) Cloud Application
+3) Also change post comment likes etc to just social collaboration
+4) In features, remove advertising and publishing
+5) Also remove accounting and bookkeeping
+also sent in email
+
+
+
+Please change pdf doc generation to transaction management
+
+
+
+
+
+we will make size small
+and create one more row
+for 3 icons
+mobile + cloud + one more
+User management ?
+already mentioned
+U can add transaction management as separate too
+ok
+That's an imp part even if we show RFQ etc as separate icon
+ok
+currently we have 12 icons
+now we will have either 15 or 16 icons
+currently 3x4
+now may be 3x5 or 4x4
+ok i will make these changes and send you latest brochure
+to be fiinalized
+I liked the idea of putting -- social supply chain --- some where ... Its an eye catcher
+
+
+
+These are some of the issues that I noticed
+
+Spelling of Redefining are wrong
+SupplyMedium is one word
+Quick and smart way to connect with businesses worldwide
+Please send us your suggestions and ideas so we can improve your user experience
+Our SaaS solution provides paperless invoices, POs, Quotes and RFQs
+Application Features
+Free advertisement publishing - Should be replaced with Cloud Application
+Pdf document generation for invoice -  Should be replaced with Automated Invoice, ....
+

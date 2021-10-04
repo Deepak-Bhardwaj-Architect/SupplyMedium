@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/margin_top_btn"
+        android:orientation="vertical"
+        >
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/supplymediumlogo"
+        android:layout_centerHorizontal="true" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FORGOT PASSWORD"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textSize="10pt"
+            android:gravity="center"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EMAIL"
+            android:paddingTop="@dimen/margin_top"
+            android:textSize="8pt"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/margin_top"
+            android:text=""
+            android:hint="Email"
+            android:singleLine="true"
+            android:textSize="8pt"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:padding="@dimen/margin_top_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_btn"
+            android:layout_marginTop="@dimen/margin"
+            android:textColor="@color/white"
+            android:text="FORGOT PASSWORD"
+            android:id="@+id/btnForgotForgot"
+            android:gravity="center"
+            />
+
+        <TableLayout
+            android:layout_marginTop="@dimen/margin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:weightSum="100"
+                >
+
+                <Button
+                    android:padding="@dimen/margin_top_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_btn"
+                    android:textColor="@color/white"
+                    android:text="SIGN UP"
+                    android:id="@+id/btnForgotSignUp"
+                    android:gravity="center"
+                    android:layout_weight="50"/>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="100dp"
+                    />
+
+                <Button
+                    android:padding="@dimen/margin_top_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_btn"
+                    android:textColor="@color/white"
+                    android:text="SIGN IN"
+                    android:id="@+id/btnForgotSignIn"
+                    android:gravity="center"
+                    android:layout_weight="50" />
+            </TableRow>
+        </TableLayout>
+        </LinearLayout>
+
+    </ScrollView>
+    </RelativeLayout>

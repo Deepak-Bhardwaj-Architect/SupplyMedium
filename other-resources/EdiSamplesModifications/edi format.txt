@@ -1,0 +1,29 @@
+generate xml
+
+invoice-id.xml
+...
+...
+
+
+po-id.xml
+...
+...
+
+
+all zipped as EDI-timestamp.zip
+
+
+double click
+super admin
+
+company profile details
+Pricing Plan
+Plan :  Basic
+Maximum number of employee licenses :  25
+Number of employees registered :  2
+Maximum transaction volume per month :  $250,000
+Transaction volume per month :  $0
+Balance transaction allowed for this month :  $250,000
+Disk Quota
+0.00% of disk space used
+Used 0.00MB of your 250.00MB disk space

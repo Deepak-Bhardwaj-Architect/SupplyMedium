@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.supply.medium.socialmedium">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/supplymediumicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SignInActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ForgotActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PostActivity"
+            android:label="@string/title_activity_post"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NotificationActivity"
+            android:label="@string/title_activity_notification"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VendorSearchActivity"
+            android:label="@string/title_activity_vendor_search"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VendorListActivity"
+            android:label="@string/title_activity_vendor_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VendorSentActivity"
+            android:label="@string/title_activity_vendor_sent"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VendorReceivedActivity"
+            android:label="@string/title_activity_vendor_received"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FriendSearchActivity"
+            android:label="@string/title_activity_friend_search"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FriendListActivity"
+            android:label="@string/title_activity_friend_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FriendSentActivity"
+            android:label="@string/title_activity_friend_sent"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FriendReceivedActivity"
+            android:label="@string/title_activity_friend_received"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MessegeViewActivity"
+            android:label="@string/title_activity_message_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MessageSendActivity"
+            android:label="@string/title_activity_message_send"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".InviteActivity"
+            android:label="@string/title_activity_invite"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChangeActivity"
+            android:label="@string/title_activity_change"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LogoutActivity"
+            android:label="@string/title_activity_logout"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

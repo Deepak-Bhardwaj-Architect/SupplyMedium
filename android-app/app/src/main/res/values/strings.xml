@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">SupplyMedium</string>
+    <string-array name="sign_up_as">
+        <item>Buyer</item>
+        <item>Supplier</item>
+        <item>Buyer / Supplier</item>
+    </string-array>
+    <string-array name="business_category">
+        <item>Small Medium Business</item>
+        <item>Company</item>
+        <item>Information Technology</item>
+    </string-array>
+    <string-array name="country">
+        <item>India</item>
+        <item>Switzerland</item>
+        <item>United States of America</item>
+    </string-array>
+    <string-array name="title">
+        <item>MR</item>
+        <item>MRS</item>
+        <item>MS</item>
+        <item>M/S</item>
+    </string-array>
+    <string name="title_activity_home">News Feed</string>
+    <string name="title_activity_post">Post Your Feed</string>
+    <string name="title_activity_notification">Notification</string>
+    <string name="title_activity_vendor_search">Vendor Search</string>
+    <string name="title_activity_vendor_list">My Vendors List</string>
+    <string name="title_activity_vendor_sent">Vendor Request Sent</string>
+    <string name="title_activity_vendor_received">Vendor Request Received</string>
+    <string name="title_activity_friend_search">Friend Search</string>
+    <string name="title_activity_friend_list">My Friend List</string>
+    <string name="title_activity_friend_sent">Friend Request Sent</string>
+    <string name="title_activity_friend_received">Friend Request Received</string>
+    <string name="title_activity_message_view">My Messages</string>
+    <string name="title_activity_message_send">Send A Message</string>
+    <string name="title_activity_invite">Invite A Friend / Business</string>
+    <string name="title_activity_profile">My Profile</string>
+    <string name="title_activity_change">Change Password</string>
+    <string name="title_activity_logout">Logout</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <!-- App messages -->
+    <string name="same_password">New password and confirm password should be same.</string>
+    <string name="password_sucess">Password changed successfully.</string>
+    <string name="password_fail">Password cannot be changed.</string>
+
+    <string name="invite_sucess">Invitation send.</string>
+    <string name="invite_fail">Invitation send failed.</string>
+
+    <string name="forgot_email_fail">Something went wrong while sending email.</string>
+    <string name="post_fail">Something went wrong while posting feed.</string>
+    <string name="post_sucess">Feed posted.</string>
+    <string name="login_fail">Something went wrong while login into app.</string>
+    <string name="registor_fail">Something went wrong while registering into app.</string>
+    <string name="profile_fail">Something went wrong while loading profile.</string>
+
+    <string name="api_error">Please try after sometime.</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+</resources>

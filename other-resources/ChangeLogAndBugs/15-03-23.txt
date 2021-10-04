@@ -1,0 +1,15 @@
+
+send message - hide on transactions after accept and reject
+
+tax 0-10 - po/qte/inv
+
+status update check on all transaction
+
+transaction history - , remove in address
+transaction history - transaction history tab
+transaction history - payment history tab
+xml edi download - onclick / 
+
+flying message - discomment
+
+only numerics are allowed. special characters like -., . are not allowed

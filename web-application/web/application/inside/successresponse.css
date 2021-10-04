@@ -1,0 +1,61 @@
+@CHARSET "UTF-8";
+
+.successcontent
+{
+	width:630px;
+	height:300px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:100px;
+	margin-bottom:100px;
+	background-color:#fff;
+	border : 1px solid #4cb6cf;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.successtitle
+{
+	height:50px;
+	background-color: #4cb6cf;
+	line-height:50px;
+	padding-left:50px;
+	text-align:left;
+	font-family:Verdana;
+	font-size:22px;
+	-moz-border-radius-topleft:9px;
+	-moz-border-radius-topright:9px;
+	border-top-right-radius:9px;
+	border-top-left-radius:9px;
+	border-bottom: 1px solid #4cb6cf;
+	color:#fff;
+
+}
+
+.resimg
+{
+	height:160px;
+	width:32px;
+	float:left;
+	padding-top:65px;
+	padding-left:45px
+	
+}
+
+.resmsg
+{
+	height:160px;
+	width:430px;
+	font-family:Verdana;
+	font-size:14px;
+	text-align:justify;
+	float:left;
+	padding-top:65px;
+	color:#222;
+	margin-left:30px;
+}
+
+.successimg
+{
+	background-image:url('Views/Utils/images/success.png');
+}

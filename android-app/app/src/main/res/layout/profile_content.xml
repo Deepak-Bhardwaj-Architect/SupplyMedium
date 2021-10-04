@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/profile_app_bar">
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="SIGN UP AS"
+                android:textSize="8pt"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/signupas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top_btn"
+                android:text="Buyer / Supplier"
+                android:textSize="8pt"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/nav_header_height"
+                android:text="COMPANY NAME"
+                android:textSize="8pt"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/company_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top_btn"
+                android:text="WebKrit Infocom"
+                android:textSize="8pt"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/nav_header_height"
+                android:text="COMPANY ID"
+                android:textSize="8pt"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/company_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top_btn"
+                android:text="webkrit"
+                android:textSize="8pt"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/nav_header_height"
+                android:text="BUSINESS CATEGORY"
+                android:textSize="8pt"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/buss_cat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top_btn"
+                android:text="Information Technology"
+                android:textSize="8pt"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/nav_header_height"
+                android:text="COUNTRY"
+                android:textSize="8pt"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top_btn"
+                android:text="India"
+                android:textSize="8pt"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/nav_header_height"
+                android:text="TITLE AND NAME"
+                android:textSize="8pt"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/title_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top_btn"
+                android:text="Ms Mini Sharma"
+                android:textSize="8pt"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/nav_header_height"
+                android:text="PRIMARY PHONE"
+                android:textSize="8pt"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top_btn"
+                android:text="8288033280"
+                android:textSize="8pt"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/nav_header_height"
+                android:text="EMAIL"
+                android:textSize="8pt"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top_btn"
+                android:text="info@webkrit.com"
+                android:textSize="8pt"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/nav_header_height"
+                android:background="@drawable/round_btn"
+                android:textColor="@color/white"
+                android:text="BACK"
+                android:id="@+id/btnSignInSignIn"
+                android:gravity="center"
+                android:layout_centerHorizontal="true" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

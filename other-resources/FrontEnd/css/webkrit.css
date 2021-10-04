@@ -1,0 +1,194 @@
+* 
+{
+	margin:0;
+	padding:0;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+body
+{
+	background:#ffffff;
+}
+
+#main-container
+{
+	width:1000px;
+	margin:auto;
+	height:1550px;
+}
+
+#header
+{
+	height:65px;
+	padding:20px;
+}
+
+.header1
+{
+	width:25%;
+	float:left;
+}
+
+.header2
+{
+	width:75%;
+	float:left;
+}
+
+.clear-both
+{
+	clear:both;
+}
+
+ul.header-menu
+{
+	margin-top:15px;
+	list-style:none;
+	font-size:14px;
+	float:right;
+}
+
+ul.header-menu li
+{
+	float:left;
+	padding:0 10px;
+}
+
+ul.header-menu li a
+{
+	text-decoration:none;
+}
+
+ul.header-menu li a:hover
+{
+	text-decoration:underline;
+}
+
+.color-blue,.bgcolor-blue
+{
+	color:#26b3d4;
+}
+
+.color-orange,.bgcolor-orange
+{
+	color:#ff7623;
+}
+
+#data-all
+{
+	width:960px;
+	padding:20px;
+}
+
+.data-business-category
+{
+	width:260px;
+	padding-right:20px;
+	float:left;
+}
+
+.data-business-category-heading
+{
+	font-size:16px;
+	color:#FFFFFF;
+	background:#26b3d4;
+	padding:10px;
+}
+
+ul.category-menu
+{
+	list-style:none;
+}
+
+ul.category-menu li
+{
+	padding:10px;
+	font-size:12px;
+	border-bottom:#26b3d4 1px dashed;
+}
+
+ul.category-menu li a
+{
+	text-decoration:none;
+}
+
+ul.category-menu li a:hover
+{
+	text-decoration:underline;
+}
+
+
+.data-content
+{
+	width:680px;
+	float:left;
+}
+
+.slider
+{
+	width:680px;
+	height:100px;
+}
+
+.select-query
+{
+	width:100%;
+}
+
+.select-query .select-query-heading
+{
+	font-size:16px;
+	color:#FFFFFF;
+	background:#26b3d4;
+	padding:10px;
+	text-align:center;
+	margin-top:20px;
+}
+
+.result-set-data
+{
+	float:left;
+	width:128px;
+	margin:10px 3px;
+	text-align:center;
+	background-color:#ff7623;
+	color:#ffffff;
+	border:#ff7623 1px dotted;
+}
+
+.result-set-data .bg-white-gap
+{
+	height:5px;
+	background-color:#ffffff;
+	width:100%;
+}
+
+.result-set-data .data-title
+{
+	padding:5px;
+	background-color:#ff7623;
+	font-size:14px;
+	color:#ffffff;
+}
+
+.result-set-data .data-price
+{
+	padding:5px;
+	background-color:#ffffff;
+	font-size:14px;
+	color:#ff7623;
+}
+
+#footer
+{
+}
+
+#footer h1
+{
+	font-size:14px;
+	background-color:#26b3d4;
+	text-align:center;
+	padding:10px;
+	font-weight:normal;
+	color:#ffffff;
+}
